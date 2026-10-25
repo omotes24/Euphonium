@@ -33,6 +33,7 @@ root) regenerates them before typesetting. The committed copies are the ones the
 | `numbers.tex` | every number of the text as a macro (`\nfeG` = 10, `\oGCten` = 91.2, …) |
 | `figs/fig_concept.pdf` | Figure 1: likelihood axis (NLL) and orientation axis (exact Λ of the PF-ODE), CIFAR-10 model |
 | `figs/fig_shared.tex` | Figure 2 (TikZ): the shared-noise estimate; thumbnails `figs/sh_*.pdf` from `gen/mk_thumbs.py` (needs the CIFAR-10 test images, `data/README.md`) |
+| `figs/euphonium_icon.tex` | the euphonium mark left of the title (TikZ, `\euphoniumicon`); `figs/euphonium_icon.svg`, the same mark for the repository README, is written by `gen/mk_icon.sh` |
 | `figs/fig_verify.pdf` | Figure 3: (a) the shared-noise estimate of Λ90 (Ablation: ten scales, 40 passes) against the exact ratio of the PF-ODE, (b) AUROC of every per-scale log-ratio |
 | `tab_main.tex` | Table 2: Euphonium and the eight comparison methods on the same images |
 | `tab_sign.tex`, `supp_sign.tex` | Table 3, Table A6: sign or magnitude: statistics of the same 10 passes and the R90 prediction difference of the GEPC run. The control with the prediction difference of Euphonium's own 10 passes is "計算中" (in progress) in Section 4; `experiments/mk_gp_jobs.py` writes its jobs, and `gen/make_paper.py` adds the column once `inputs/eu/` exists |

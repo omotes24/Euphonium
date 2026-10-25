@@ -1,4 +1,4 @@
-# Euphonium
+# <img src="paper/figs/euphonium_icon.svg" alt="" height="40" align="middle"> Euphonium
 
 **Out-of-distribution detection with the self-rotation likelihood ratio of a diffusion model, in 10 forward passes per image.**
 

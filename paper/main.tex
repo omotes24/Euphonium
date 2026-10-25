@@ -31,9 +31,11 @@
 \renewcommand{\dbltopfraction}{0.95}\renewcommand{\topfraction}{0.95}\renewcommand{\textfraction}{0.05}\renewcommand{\dblfloatpagefraction}{0.9}\setcounter{dbltopnumber}{3}\setcounter{topnumber}{3}   % lets wide figures and tables go to the top of the next page
 \setlength{\textwidth}{430pt}\setlength{\columnwidth}{\textwidth}\setlength{\oddsidemargin}{11.2pt}\setlength{\evensidemargin}{11.2pt}   % narrower text for the one-column layout (430pt = 152 mm, equal margins)
 \input{numbers}
+\input{figs/euphonium_icon}   % \euphoniumicon: the mark left of the title
 
 \begin{document}
-\title{\textbf{Euphonium：拡散モデルの自己回転尤度比による分布外検知}}
+\title{\leavevmode\llap{\euphoniumicon\hspace{4mm}}%
+  \begin{tabular}[c]{@{}c@{}}\textbf{Euphonium：拡散モデルの自己回転尤度比による}\\\textbf{分布外検知}\end{tabular}}
 \affiliate{sfc}{慶應義塾大学 総合政策学部3年}
 \affiliate{ntt}{NTTコミュニケーション科学研究所}
 \affiliate{sfc2}{慶應義塾大学院 政策・メディア研究科1年}
