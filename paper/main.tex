@@ -32,6 +32,13 @@
 \setlength{\textwidth}{430pt}\setlength{\columnwidth}{\textwidth}\setlength{\oddsidemargin}{11.2pt}\setlength{\evensidemargin}{11.2pt}   % narrower text for the one-column layout (430pt = 152 mm, equal margins)
 \input{numbers}
 \input{figs/euphonium_icon}   % \euphoniumicon: the mark left of the title
+\usepackage{etoolbox}
+\newcommand{\eurl}{\special{pdf:bann << /Subtype /Link /Border [0 0 0] /A << /S /URI /URI (https://github.com/omotes24/Euphonium) >> >>}%
+  \texttt{github.com/omotes24/Euphonium}\special{pdf:eann}}   % the repository, a link in the PDF (dvipdfmx)
+\makeatletter   % the repository line under the authors; the space before the body is reduced by the same amount
+\patchcmd{\authortitle}{\vskip\JEhonbunsep}{\vskip2.2mm{\fontsize{13\JQ}{18\h}\selectfont\eurl\par}\vskip\JEhonbunsep}{}{\PackageError{main}{authortitle not patched}{}}
+\JEhonbunsep=7mm   % 13.7mm of the class minus 2.2mm and the 4.5mm line of the repository
+\makeatother
 
 \begin{document}
 \title{\begin{tabular}[c]{@{}c@{}}\raisebox{2.7pt}{\scalebox{0.75}{\euphoniumicon}}\hspace{1.2mm}\textbf{Euphonium：}\\[3pt]%
