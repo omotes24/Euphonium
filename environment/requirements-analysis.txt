@@ -1,0 +1,8 @@
+# CPU side (analysis/, paper/gen/): the environment in which every result file, table and figure of the paper was produced
+#   (Python 3.13.16).  The paper needs pLaTeX (platex, pbibtex, dvipdfmx, latexmk; we used TeX Live 2023), see paper/README.md.
+#   The figure fonts are Noto Sans CJK JP (fonts-noto-cjk); paper/gen/mk_thumbs.py without data/npy also needs pyarrow and pandas.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==12.3.0

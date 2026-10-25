@@ -1,0 +1,14 @@
+# GPU side (experiments/): the environment of our runs (Python 3.11.17, CUDA 12.1, 4x RTX 2080 Ti 11 GB, driver 570).
+#   conda create -n euphonium python=3.11 && conda activate euphonium
+#   pip install -r environment/requirements-gpu.txt --extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.1
+pillow==12.3.0
+diffusers==0.31.0          # the SVHN VP-SDE checkpoint is a diffusers UNet2DModel
+requests==2.34.2           # (requests, tqdm, psutil, click: imported by the EDM / EDM2 code in ext/)
+tqdm==4.70.1
+psutil==7.2.2
+click==8.5.0

@@ -1,0 +1,28 @@
+# local data, weights, third-party code and run outputs (see data/, checkpoints/, third_party/, experiments/README.md)
+/ckpt/
+/ext/
+/data/npy/
+/data/raw/
+/data/external/
+/data/openood/
+/data/complexity/
+/runs/
+/logs/
+/inputs/
+*.tar
+/experiments/jobs/*_claims/
+/experiments/jobs/*_logs/
+__pycache__/
+*.pyc
+# the MIRU 2025 class files (not redistributed, paper/README.md) and LaTeX by-products
+/paper/miru2025j.cls
+/paper/miru2025j.bst
+/paper/miru2025j-unsrt.bst
+/paper/*.aux
+/paper/*.log
+/paper/*.dvi
+/paper/*.bbl
+/paper/*.blg
+/paper/*.fls
+/paper/*.fdb_latexmk
+/paper/*.out

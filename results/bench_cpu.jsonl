@@ -1,0 +1,10 @@
+{"method": "euphonium", "batch": 4, "sec_per_img": 2.082586066499971, "nfe_fwd_per_img": 10.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "c3", "batch": 4, "sec_per_img": 4.290429714749962, "nfe_fwd_per_img": 20.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "r60", "batch": 4, "sec_per_img": 13.090337581749964, "nfe_fwd_per_img": 60.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "diffpath", "batch": 4, "sec_per_img": 2.1506304452499307, "nfe_fwd_per_img": 10.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "gepc", "batch": 4, "sec_per_img": 3.06385583149995, "nfe_fwd_per_img": 14.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "msma", "batch": 4, "sec_per_img": 4.336831028250003, "nfe_fwd_per_img": 20.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "eigen", "batch": 4, "sec_per_img": 40.295252797499984, "nfe_fwd_per_img": 180.0, "vjp_per_img": 0.0, "threads": 2}
+{"method": "nll", "batch": 4, "sec_per_img": 59.87989468950002, "nfe_fwd_per_img": 128.0, "vjp_per_img": 128.0, "threads": 2}
+{"method": "ic", "batch": 4, "sec_per_img": 58.09497156374994, "nfe_fwd_per_img": 128.0, "vjp_per_img": 128.0, "threads": 2, "codelen_sec_per_img": 0.001601607999987209}
+{"method": "ode", "batch": 4, "sec_per_img": 115.18755671275005, "nfe_fwd_per_img": 256.0, "vjp_per_img": 256.0, "threads": 2}

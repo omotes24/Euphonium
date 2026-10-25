@@ -1,0 +1,126 @@
+{
+ "_note": "External reference values (not a method of this repository): kNN on the denoiser features of the same diffusion model (cosine similarity of the channel mean/std of two decoder blocks at sigma_3, upright pass, to the nearest of 10,000 ID training images), AUROC (%) on the same 63 pairs and images. Computed in the companion experiment of the final-presentation resume (\"can orientation be added on top of kNN?\"); the paper cites only these numbers.",
+ "edmc10": {
+  "auroc": {
+   "C": {
+    "cifar100_test": 85.3157,
+    "svhn_test": 97.08465,
+    "celeba_test": 81.252,
+    "textures": 99.00505000000001,
+    "tin_val": 90.67515,
+    "lsun_fix": 94.99849999999999,
+    "imagenet_fix": 95.11699999999999,
+    "imagenet32_val": 94.949,
+    "places365_val": 93.9577,
+    "cifar10_test__vflip": 83.0528,
+    "synth_noise": 100.0,
+    "synth_const": 99.99945
+   }
+  },
+  "mean_nat": {
+   "C": 92.48386111111112
+  },
+  "n_cal": 1000
+ },
+ "l6svhn": {
+  "auroc": {
+   "C": {
+    "cifar10_test": 99.30985,
+    "cifar100_test": 99.2595,
+    "celeba_test": 99.16905,
+    "textures": 99.16319999999999,
+    "tin_val": 99.27835,
+    "lsun_fix": 99.65955,
+    "imagenet_fix": 99.458,
+    "imagenet32_val": 99.61664999999999,
+    "places365_val": 99.49795,
+    "svhn_test__vflip": 57.070750000000004,
+    "synth_noise": 99.9607,
+    "synth_const": 99.9602
+   }
+  },
+  "mean_nat": {
+   "C": 99.37912222222222
+  },
+  "n_cal": 1000
+ },
+ "dpceleba": {
+  "auroc": {
+   "C": {
+    "cifar10_test": 99.86985,
+    "cifar100_test": 99.8896,
+    "svhn_test": 99.95935,
+    "textures": 99.9834,
+    "tin_val": 99.88825,
+    "lsun_fix": 99.9207,
+    "imagenet_fix": 99.93520000000001,
+    "imagenet32_val": 99.97895,
+    "places365_val": 99.9242,
+    "celeba_test__vflip": 98.68025,
+    "synth_noise": 100.0,
+    "synth_const": 100.0
+   }
+  },
+  "mean_nat": {
+   "C": 99.92772222222223
+  },
+  "n_cal": 1000
+ },
+ "edmc100": {
+  "auroc": {
+   "C": {
+    "cifar10_test": 68.7126,
+    "svhn_test": 93.05069999999999,
+    "celeba_test": 51.192550000000004,
+    "textures": 94.37385,
+    "tin_val": 75.71515,
+    "lsun_fix": 73.03595,
+    "imagenet_fix": 78.6473,
+    "imagenet32_val": 83.52515,
+    "places365_val": 72.33035,
+    "cifar100_test__vflip": 55.79845,
+    "synth_noise": 100.0,
+    "synth_const": 99.9928
+   }
+  },
+  "mean_nat": {
+   "C": 76.7315111111111
+  },
+  "n_cal": 1000
+ },
+ "in64": {
+  "auroc": {
+   "C": {
+    "in64_ssb_hard": 59.8842,
+    "in64_ninco": 66.44919999999999,
+    "in64_inaturalist": 76.387,
+    "in64_textures": 95.1626,
+    "in64_openimage_o": 74.6936,
+    "in64_places365": 75.016,
+    "in64_celeba_test": 61.7078,
+    "in64_imagenet_test__vflip": 61.937799999999996
+   }
+  },
+  "mean_nat": {
+   "C": 72.7572
+  },
+  "n_cal": 1000
+ },
+ "fmnist": {
+  "auroc": {
+   "C": {
+    "g32_mnist_test": 99.5865,
+    "g32_kmnist_test": 99.49465,
+    "g32_omniglot_eval": 98.78405000000001,
+    "g32_notmnist": 99.9495,
+    "g32_fmnist_test__vflip": 95.0743,
+    "g32_synth_noise": 100.0,
+    "g32_synth_const": 100.0
+   }
+  },
+  "mean_nat": {
+   "C": 99.45367499999999
+  },
+  "n_cal": 1000
+ }
+}

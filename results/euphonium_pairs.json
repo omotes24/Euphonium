@@ -1,0 +1,728 @@
+{
+ "rule": {
+  "atoms": [
+   [
+    "rot90",
+    0
+   ],
+   [
+    "rot90",
+    6
+   ],
+   [
+    "rot180",
+    0
+   ]
+  ],
+  "nfe": 10,
+  "noise": "pair",
+  "description": "R90: sigma_1, sigma_7; R180: sigma_1"
+ },
+ "pairs": {
+  "edmc10": {
+   "cifar100_test": {
+    "auroc": 76.0484,
+    "fpr95": 75.2,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 76.0804,
+    "best": true,
+    "second": false
+   },
+   "svhn_test": {
+    "auroc": 94.8856,
+    "fpr95": 29.7,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.3588,
+    "best": false,
+    "second": false
+   },
+   "celeba_test": {
+    "auroc": 91.7077,
+    "fpr95": 49.5,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-j2k",
+    "best_baseline_auroc": 67.7443,
+    "best": true,
+    "second": false
+   },
+   "textures": {
+    "auroc": 94.8335,
+    "fpr95": 21.9,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 90.1161,
+    "best": true,
+    "second": false
+   },
+   "tin_val": {
+    "auroc": 93.7801,
+    "fpr95": 35.5,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 77.4219,
+    "best": true,
+    "second": false
+   },
+   "lsun_fix": {
+    "auroc": 92.2028,
+    "fpr95": 49.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 83.66369999999999,
+    "best": true,
+    "second": false
+   },
+   "imagenet_fix": {
+    "auroc": 93.5467,
+    "fpr95": 40.699999999999996,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 79.3352,
+    "best": true,
+    "second": false
+   },
+   "imagenet32_val": {
+    "auroc": 92.43010000000001,
+    "fpr95": 41.099999999999994,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 84.3233,
+    "best": true,
+    "second": false
+   },
+   "places365_val": {
+    "auroc": 91.5551,
+    "fpr95": 49.4,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 82.5576,
+    "best": true,
+    "second": false
+   },
+   "cifar10_test__vflip": {
+    "auroc": 90.8176,
+    "fpr95": 43.4,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 78.899,
+    "best": true,
+    "second": false
+   },
+   "synth_noise": {
+    "auroc": 97.83064999999999,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 100.0,
+    "best": false,
+    "second": false
+   },
+   "synth_const": {
+    "auroc": 91.85799999999999,
+    "fpr95": 19.25,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 99.9901,
+    "best": false,
+    "second": false
+   }
+  },
+  "l6svhn": {
+   "cifar10_test": {
+    "auroc": 98.0305,
+    "fpr95": 9.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.1105,
+    "best": false,
+    "second": false
+   },
+   "cifar100_test": {
+    "auroc": 97.91879999999999,
+    "fpr95": 9.2,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.15129999999999,
+    "best": false,
+    "second": false
+   },
+   "celeba_test": {
+    "auroc": 97.92530000000001,
+    "fpr95": 11.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "NLL",
+    "best_baseline_auroc": 99.9305,
+    "best": false,
+    "second": false
+   },
+   "textures": {
+    "auroc": 96.9045,
+    "fpr95": 8.7,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 99.5557,
+    "best": false,
+    "second": false
+   },
+   "tin_val": {
+    "auroc": 97.796,
+    "fpr95": 9.8,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.1634,
+    "best": false,
+    "second": false
+   },
+   "lsun_fix": {
+    "auroc": 98.63680000000001,
+    "fpr95": 4.3,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.8676,
+    "best": false,
+    "second": false
+   },
+   "imagenet_fix": {
+    "auroc": 98.0591,
+    "fpr95": 8.4,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.7725,
+    "best": false,
+    "second": false
+   },
+   "imagenet32_val": {
+    "auroc": 98.1794,
+    "fpr95": 6.1,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9794,
+    "best": false,
+    "second": false
+   },
+   "places365_val": {
+    "auroc": 98.5415,
+    "fpr95": 5.8999999999999995,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.7908,
+    "best": false,
+    "second": false
+   },
+   "svhn_test__vflip": {
+    "auroc": 85.4392,
+    "fpr95": 52.6,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 71.9107,
+    "best": true,
+    "second": false
+   },
+   "synth_noise": {
+    "auroc": 99.05435,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 100.0,
+    "best": false,
+    "second": false
+   },
+   "synth_const": {
+    "auroc": 99.73174999999999,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.95875,
+    "best": false,
+    "second": false
+   }
+  },
+  "dpceleba": {
+   "cifar10_test": {
+    "auroc": 99.9995,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.7683,
+    "best": true,
+    "second": false
+   },
+   "cifar100_test": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.6422,
+    "best": true,
+    "second": false
+   },
+   "svhn_test": {
+    "auroc": 99.9997,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9957,
+    "best": true,
+    "second": false
+   },
+   "textures": {
+    "auroc": 99.9244,
+    "fpr95": 0.5,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9235,
+    "best": true,
+    "second": false
+   },
+   "tin_val": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.79599999999999,
+    "best": true,
+    "second": false
+   },
+   "lsun_fix": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9642,
+    "best": true,
+    "second": false
+   },
+   "imagenet_fix": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.66239999999999,
+    "best": true,
+    "second": false
+   },
+   "imagenet32_val": {
+    "auroc": 99.9999,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9128,
+    "best": true,
+    "second": false
+   },
+   "places365_val": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9456,
+    "best": true,
+    "second": false
+   },
+   "celeba_test__vflip": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9142,
+    "best": true,
+    "second": false
+   },
+   "synth_noise": {
+    "auroc": 100.0,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 100.0,
+    "best": true,
+    "second": false
+   },
+   "synth_const": {
+    "auroc": 99.9956,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "GEPC",
+    "best_baseline_auroc": 99.99985,
+    "best": true,
+    "second": false
+   }
+  },
+  "edmc100": {
+   "cifar10_test": {
+    "auroc": 24.4269,
+    "fpr95": 99.4,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "GEPC",
+    "best_baseline_auroc": 62.3728,
+    "best": false,
+    "second": false
+   },
+   "svhn_test": {
+    "auroc": 81.538,
+    "fpr95": 63.6,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 97.28869999999999,
+    "best": false,
+    "second": false
+   },
+   "celeba_test": {
+    "auroc": 73.6195,
+    "fpr95": 90.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-j2k",
+    "best_baseline_auroc": 61.9401,
+    "best": true,
+    "second": false
+   },
+   "textures": {
+    "auroc": 85.7547,
+    "fpr95": 70.8,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 86.8535,
+    "best": false,
+    "second": true
+   },
+   "tin_val": {
+    "auroc": 80.33059999999999,
+    "fpr95": 81.39999999999999,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 68.1076,
+    "best": true,
+    "second": false
+   },
+   "lsun_fix": {
+    "auroc": 77.1713,
+    "fpr95": 91.5,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 79.12010000000001,
+    "best": false,
+    "second": true
+   },
+   "imagenet_fix": {
+    "auroc": 79.4011,
+    "fpr95": 83.1,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 72.1025,
+    "best": true,
+    "second": false
+   },
+   "imagenet32_val": {
+    "auroc": 77.69359999999999,
+    "fpr95": 89.2,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 78.95790000000001,
+    "best": false,
+    "second": true
+   },
+   "places365_val": {
+    "auroc": 74.8445,
+    "fpr95": 91.4,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "IC-png",
+    "best_baseline_auroc": 78.43480000000001,
+    "best": false,
+    "second": true
+   },
+   "cifar100_test__vflip": {
+    "auroc": 78.918,
+    "fpr95": 74.3,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 52.776500000000006,
+    "best": true,
+    "second": false
+   },
+   "synth_noise": {
+    "auroc": 90.01635,
+    "fpr95": 99.5,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 100.0,
+    "best": false,
+    "second": false
+   },
+   "synth_const": {
+    "auroc": 87.07345,
+    "fpr95": 26.8,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 99.9993,
+    "best": false,
+    "second": false
+   }
+  },
+  "in64": {
+   "in64_ssb_hard": {
+    "auroc": 54.837199999999996,
+    "fpr95": 96.0,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 56.8644,
+    "best": false,
+    "second": true
+   },
+   "in64_ninco": {
+    "auroc": 72.3468,
+    "fpr95": 89.60000000000001,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "TT",
+    "best_baseline_auroc": 59.30760000000001,
+    "best": true,
+    "second": false
+   },
+   "in64_inaturalist": {
+    "auroc": 84.0948,
+    "fpr95": 94.0,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "NLL",
+    "best_baseline_auroc": 85.3544,
+    "best": false,
+    "second": true
+   },
+   "in64_textures": {
+    "auroc": 80.4084,
+    "fpr95": 77.60000000000001,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 81.5188,
+    "best": false,
+    "second": true
+   },
+   "in64_openimage_o": {
+    "auroc": 73.482,
+    "fpr95": 90.8,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "NLL",
+    "best_baseline_auroc": 60.902,
+    "best": true,
+    "second": false
+   },
+   "in64_places365": {
+    "auroc": 52.038,
+    "fpr95": 98.2,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 74.3352,
+    "best": false,
+    "second": false
+   },
+   "in64_celeba_test": {
+    "auroc": 6.6168000000000005,
+    "fpr95": 99.8,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 76.0448,
+    "best": false,
+    "second": false
+   },
+   "in64_imagenet_test__vflip": {
+    "auroc": 86.56479999999999,
+    "fpr95": 64.60000000000001,
+    "n_id": 500,
+    "n_ood": 500,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 66.0676,
+    "best": true,
+    "second": false
+   }
+  },
+  "fmnist": {
+   "g32_mnist_test": {
+    "auroc": 99.1363,
+    "fpr95": 5.1,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 96.48740000000001,
+    "best": true,
+    "second": false
+   },
+   "g32_kmnist_test": {
+    "auroc": 99.2371,
+    "fpr95": 3.0,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 97.8661,
+    "best": true,
+    "second": false
+   },
+   "g32_omniglot_eval": {
+    "auroc": 98.54119999999999,
+    "fpr95": 8.799999999999999,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 96.5736,
+    "best": true,
+    "second": false
+   },
+   "g32_notmnist": {
+    "auroc": 98.4904,
+    "fpr95": 8.9,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "MSMA*",
+    "best_baseline_auroc": 95.16369999999999,
+    "best": true,
+    "second": false
+   },
+   "g32_fmnist_test__vflip": {
+    "auroc": 92.5297,
+    "fpr95": 42.3,
+    "n_id": 1000,
+    "n_ood": 1000,
+    "best_baseline": "EigenScore",
+    "best_baseline_auroc": 91.3944,
+    "best": true,
+    "second": false
+   },
+   "g32_synth_noise": {
+    "auroc": 99.58015,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 100.0,
+    "best": false,
+    "second": false
+   },
+   "g32_synth_const": {
+    "auroc": 99.4542,
+    "fpr95": 0.0,
+    "n_id": 1000,
+    "n_ood": 2000,
+    "best_baseline": "DiffPath",
+    "best_baseline_auroc": 99.9983,
+    "best": false,
+    "second": true
+   }
+  }
+ },
+ "ids": {
+  "edmc10": {
+   "name": "CIFAR-10",
+   "natural_mean": 91.22111111111111,
+   "best_baseline": "EigenScore",
+   "best_baseline_mean": 75.03294444444445,
+   "best": true,
+   "id_mean_score": 0.15762365449514168,
+   "id_sd_score": 0.12035025360789692
+  },
+  "l6svhn": {
+   "name": "SVHN",
+   "natural_mean": 97.9991,
+   "best_baseline": "DiffPath",
+   "best_baseline_mean": 99.53,
+   "best": false,
+   "id_mean_score": 0.17235212860130827,
+   "id_sd_score": 0.07933088178982275
+  },
+  "dpceleba": {
+   "name": "CelebA",
+   "natural_mean": 99.99150000000002,
+   "best_baseline": "DiffPath",
+   "best_baseline_mean": 99.84563333333332,
+   "best": true,
+   "id_mean_score": 0.655642707543968,
+   "id_sd_score": 0.1505707786177232
+  },
+  "edmc100": {
+   "name": "CIFAR-100",
+   "natural_mean": 72.75335555555556,
+   "best_baseline": "IC-png",
+   "best_baseline_mean": 67.11741111111111,
+   "best": true,
+   "id_mean_score": 0.08437255883598713,
+   "id_sd_score": 0.07109384495513983
+  },
+  "in64": {
+   "name": "ImageNet-64",
+   "natural_mean": 60.54628571428571,
+   "best_baseline": "MSMA*",
+   "best_baseline_mean": 62.42937142857143,
+   "best": false,
+   "id_mean_score": 0.0352832269863979,
+   "id_sd_score": 0.031402166202242315
+  },
+  "fmnist": {
+   "name": "FashionMNIST",
+   "natural_mean": 98.85125,
+   "best_baseline": "MSMA*",
+   "best_baseline_mean": 95.83765000000001,
+   "best": true,
+   "id_mean_score": 0.38313085571464106,
+   "id_sd_score": 0.20175587537206255
+  }
+ },
+ "summary": {
+  "mean_over_ids": 86.89376706349208,
+  "pairs": 63,
+  "best": 34,
+  "second": 8,
+  "ids_best": 4
+ }
+}

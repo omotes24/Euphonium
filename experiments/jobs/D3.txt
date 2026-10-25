@@ -1,0 +1,20 @@
+# D3: training snapshots of our CIFAR-10 and Tiny-ImageNet models (A.7): identity + R180 at five scales on the ID development images (extract_bu.py).
+#   The jobs of our lists D3, D3B whose outputs the analysis reads (in their order; the arguments match those stored in every output file).
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_0.125M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_0.125M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_0.25M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_0.25M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_0.5M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_0.5M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_1M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_1M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_2M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_2M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_4M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_4M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_8M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_8M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_16M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_16M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/c10_m/snap_32M.pt --data cifar10_test --n 2000 --out runs/feat/D3d_c10m_32M/cifar10_test.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_0.125M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_0.125M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_0.25M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_0.25M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_0.5M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_0.5M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_1M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_1M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_2M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_2M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_4M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_4M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m/snap_8M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin_8M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m32/snap_16M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin32_16M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500
+python experiments/extract_bu.py --gpu {gpu} --model own:models/tin_m32/snap_32M.pt --data tin_val --n 2000 --out runs/feat/D3d_tin32_32M/tin_val.npz --kidx 0,2,3,5,7 --tfs id,rot180 --pairs 1 --bs 500

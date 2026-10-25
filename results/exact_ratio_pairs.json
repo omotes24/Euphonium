@@ -1,0 +1,204 @@
+{
+ "edmc10": {
+  "n_id": 1000,
+  "mean_bpd": 0.09853077538790539,
+  "sd_bpd": 0.0638001486074002,
+  "frac_pos": 0.975,
+  "sets": {
+   "cifar100_test": {
+    "auroc": 0.711414,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.05292839221360462
+   },
+   "svhn_test": {
+    "auroc": 0.959463,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.00042419463511970853
+   },
+   "celeba_test": {
+    "auroc": 0.947888,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.00335973706883962
+   },
+   "textures": {
+    "auroc": 0.945955,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.001376018102370514
+   },
+   "tin_val": {
+    "auroc": 0.934915,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.007513808347859379
+   },
+   "lsun_fix": {
+    "auroc": 0.902806,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.018787642552032684
+   },
+   "imagenet_fix": {
+    "auroc": 0.917996,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.013128819573458942
+   },
+   "imagenet32_val": {
+    "auroc": 0.899009,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.0176043654880435
+   },
+   "places365_val": {
+    "auroc": 0.89708,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.019498245948294805
+   }
+  }
+ },
+ "l6svhn": {
+  "n_id": 1000,
+  "mean_bpd": 0.056184862622246125,
+  "sd_bpd": 0.024145583623829042,
+  "frac_pos": 0.998,
+  "sets": {
+   "cifar10_test": {
+    "auroc": 0.880839,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.004315385430384538
+   },
+   "cifar100_test": {
+    "auroc": 0.867737,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.0003715400429278427
+   },
+   "celeba_test": {
+    "auroc": 0.85201,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.017516964424840683
+   },
+   "textures": {
+    "auroc": 0.88244,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.0004777867022121283
+   },
+   "tin_val": {
+    "auroc": 0.895631,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.013240202249498907
+   },
+   "lsun_fix": {
+    "auroc": 0.942794,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.016675734761020654
+   },
+   "imagenet_fix": {
+    "auroc": 0.91212,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.015089793405928755
+   },
+   "imagenet32_val": {
+    "auroc": 0.912397,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.0057412313290696616
+   },
+   "places365_val": {
+    "auroc": 0.915034,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.011851768353038515
+   }
+  }
+ },
+ "edmc100": {
+  "n_id": 1000,
+  "mean_bpd": 0.05805285677890991,
+  "sd_bpd": 0.05338616766715026,
+  "frac_pos": 0.875,
+  "sets": {
+   "cifar10_test": {
+    "auroc": 0.294119,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.1037181486844491
+   },
+   "svhn_test": {
+    "auroc": 0.857396,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.00019462947836769567
+   },
+   "celeba_test": {
+    "auroc": 0.765834,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.01499722572672209
+   },
+   "textures": {
+    "auroc": 0.844043,
+    "n_ood": 1000,
+    "mean_ood_bpd": -0.0017931557327591512
+   },
+   "tin_val": {
+    "auroc": 0.793585,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.010206271478974776
+   },
+   "lsun_fix": {
+    "auroc": 0.751201,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.017992496462389113
+   },
+   "imagenet_fix": {
+    "auroc": 0.775235,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.013382766595216904
+   },
+   "imagenet32_val": {
+    "auroc": 0.747015,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.017836955137957657
+   },
+   "places365_val": {
+    "auroc": 0.742515,
+    "n_ood": 1000,
+    "mean_ood_bpd": 0.018801575154466305
+   }
+  }
+ },
+ "in64": {
+  "n_id": 500,
+  "mean_bpd": 0.017042413000779074,
+  "sd_bpd": 0.013074617056772002,
+  "frac_pos": 0.95,
+  "sets": {
+   "in64_ssb_hard": {
+    "auroc": 0.553496,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.014141749905053883
+   },
+   "in64_ninco": {
+    "auroc": 0.730472,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.007604289782931259
+   },
+   "in64_inaturalist": {
+    "auroc": 0.793092,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.005731809825019441
+   },
+   "in64_textures": {
+    "auroc": 0.82634,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.0022063101945221306
+   },
+   "in64_openimage_o": {
+    "auroc": 0.726848,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.007409218920014039
+   },
+   "in64_places365": {
+    "auroc": 0.49948,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.016227043883483123
+   },
+   "in64_celeba_test": {
+    "auroc": 0.252492,
+    "n_ood": 500,
+    "mean_ood_bpd": 0.02668486993302191
+   }
+  }
+ }
+}

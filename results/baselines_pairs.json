@@ -1,0 +1,2972 @@
+{
+ "edmc10": {
+  "common": {
+   "NLL": {
+    "cifar100_test": {
+     "auroc": 0.502333,
+     "fpr95": 0.94,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.124921,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.612678,
+     "fpr95": 0.999,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.622896,
+     "fpr95": 0.795,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.490761,
+     "fpr95": 0.979,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.721224,
+     "fpr95": 0.854,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.585666,
+     "fpr95": 0.881,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.769018,
+     "fpr95": 0.659,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.696519,
+     "fpr95": 0.829,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.526658,
+     "fpr95": 0.937,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-png": {
+    "cifar100_test": {
+     "auroc": 0.556828,
+     "fpr95": 0.917,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.816671,
+     "fpr95": 0.703,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.657719,
+     "fpr95": 0.995,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.747466,
+     "fpr95": 0.571,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.485706,
+     "fpr95": 0.973,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.836637,
+     "fpr95": 0.77,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.767272,
+     "fpr95": 0.774,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.830278,
+     "fpr95": 0.635,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.825576,
+     "fpr95": 0.715,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.536809,
+     "fpr95": 0.941,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-j2k": {
+    "cifar100_test": {
+     "auroc": 0.544226,
+     "fpr95": 0.92,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.959814,
+     "fpr95": 0.241,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.677443,
+     "fpr95": 0.99,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.741014,
+     "fpr95": 0.596,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.459153,
+     "fpr95": 0.973,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.77814,
+     "fpr95": 0.89,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.720453,
+     "fpr95": 0.813,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.741682,
+     "fpr95": 0.819,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.774147,
+     "fpr95": 0.799,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.53497,
+     "fpr95": 0.943,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "TT": {
+    "cifar100_test": {
+     "auroc": 0.547101,
+     "fpr95": 0.908,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.736239,
+     "fpr95": 0.887,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.39943,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.662374,
+     "fpr95": 0.781,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.474052,
+     "fpr95": 0.951,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.615875,
+     "fpr95": 0.914,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.589855,
+     "fpr95": 0.886,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.73653,
+     "fpr95": 0.717,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.631273,
+     "fpr95": 0.895,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.506801,
+     "fpr95": 0.947,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "MSMA*": {
+    "cifar100_test": {
+     "auroc": 0.545382,
+     "fpr95": 0.923,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.910947,
+     "fpr95": 0.626,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.436887,
+     "fpr95": 0.996,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.901161,
+     "fpr95": 0.367,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.714862,
+     "fpr95": 0.854,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.483514,
+     "fpr95": 0.97,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.589566,
+     "fpr95": 0.894,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.7037,
+     "fpr95": 0.845,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.524179,
+     "fpr95": 0.942,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.523191,
+     "fpr95": 0.962,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.999901,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "DiffPath": {
+    "cifar100_test": {
+     "auroc": 0.603261,
+     "fpr95": 0.862,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.993588,
+     "fpr95": 0.014,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.393617,
+     "fpr95": 0.975,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.852588,
+     "fpr95": 0.483,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.774219,
+     "fpr95": 0.748,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.623764,
+     "fpr95": 0.893,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.735556,
+     "fpr95": 0.774,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.843233,
+     "fpr95": 0.561,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.652656,
+     "fpr95": 0.861,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.548847,
+     "fpr95": 0.93,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9927895,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "GEPC": {
+    "cifar100_test": {
+     "auroc": 0.497212,
+     "fpr95": 0.954,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.846565,
+     "fpr95": 0.646,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.289402,
+     "fpr95": 0.999,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.659976,
+     "fpr95": 0.765,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.509403,
+     "fpr95": 0.956,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.349925,
+     "fpr95": 0.99,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.472494,
+     "fpr95": 0.954,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.472279,
+     "fpr95": 0.956,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.41143,
+     "fpr95": 0.979,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.451769,
+     "fpr95": 0.975,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.606497,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9561875,
+     "fpr95": 0.1265,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "EigenScore": {
+    "cifar100_test": {
+     "auroc": 0.760804,
+     "fpr95": 0.824,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.667612,
+     "fpr95": 0.948,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.613836,
+     "fpr95": 0.969,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.721216,
+     "fpr95": 0.81,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.769466,
+     "fpr95": 0.829,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.836045,
+     "fpr95": 0.683,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.793352,
+     "fpr95": 0.793,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.781998,
+     "fpr95": 0.792,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.808636,
+     "fpr95": 0.758,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar10_test__vflip": {
+     "auroc": 0.78899,
+     "fpr95": 0.814,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.604777,
+     "fpr95": 0.991,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.253162,
+     "fpr95": 0.9985,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "tied",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    3,
+    4
+   ]
+  }
+ },
+ "l6svhn": {
+  "common": {
+   "NLL": {
+    "cifar10_test": {
+     "auroc": 0.989245,
+     "fpr95": 0.036,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.985162,
+     "fpr95": 0.056,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.999305,
+     "fpr95": 0.001,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.967503,
+     "fpr95": 0.069,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.984671,
+     "fpr95": 0.048,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.996475,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.989365,
+     "fpr95": 0.029,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.99662,
+     "fpr95": 0.01,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.990604,
+     "fpr95": 0.025,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.508656,
+     "fpr95": 0.941,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-png": {
+    "cifar10_test": {
+     "auroc": 0.871199,
+     "fpr95": 0.457,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.893547,
+     "fpr95": 0.377,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.884087,
+     "fpr95": 0.549,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.951784,
+     "fpr95": 0.184,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.817164,
+     "fpr95": 0.622,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.986402,
+     "fpr95": 0.069,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.968948,
+     "fpr95": 0.134,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.993476,
+     "fpr95": 0.032,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.976244,
+     "fpr95": 0.106,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.5103,
+     "fpr95": 0.943,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-j2k": {
+    "cifar10_test": {
+     "auroc": 0.643693,
+     "fpr95": 0.67,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.686508,
+     "fpr95": 0.598,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.641119,
+     "fpr95": 0.836,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.809421,
+     "fpr95": 0.379,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.475456,
+     "fpr95": 0.827,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.897151,
+     "fpr95": 0.281,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.854371,
+     "fpr95": 0.325,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.917163,
+     "fpr95": 0.251,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.867218,
+     "fpr95": 0.348,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.513171,
+     "fpr95": 0.944,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "TT": {
+    "cifar10_test": {
+     "auroc": 0.985822,
+     "fpr95": 0.047,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.977332,
+     "fpr95": 0.065,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.999023,
+     "fpr95": 0.003,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.970443,
+     "fpr95": 0.07,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.977468,
+     "fpr95": 0.066,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.994817,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.987386,
+     "fpr95": 0.033,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.995874,
+     "fpr95": 0.009,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.987792,
+     "fpr95": 0.027,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.50505,
+     "fpr95": 0.944,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "MSMA*": {
+    "cifar10_test": {
+     "auroc": 0.985478,
+     "fpr95": 0.087,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.984061,
+     "fpr95": 0.089,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.988088,
+     "fpr95": 0.056,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.995557,
+     "fpr95": 0.019,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.976785,
+     "fpr95": 0.13,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.997806,
+     "fpr95": 0.008,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.991748,
+     "fpr95": 0.041,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.99876,
+     "fpr95": 0.006,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.994731,
+     "fpr95": 0.023,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.504988,
+     "fpr95": 0.945,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.999006,
+     "fpr95": 0.001,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "DiffPath": {
+    "cifar10_test": {
+     "auroc": 0.991105,
+     "fpr95": 0.046,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.991513,
+     "fpr95": 0.043,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.994442,
+     "fpr95": 0.013,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.994903,
+     "fpr95": 0.016,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.991634,
+     "fpr95": 0.03,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.998676,
+     "fpr95": 0.004,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.997725,
+     "fpr95": 0.012,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.999794,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.997908,
+     "fpr95": 0.008,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.513259,
+     "fpr95": 0.944,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9995875,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "GEPC": {
+    "cifar10_test": {
+     "auroc": 0.922694,
+     "fpr95": 0.523,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.921665,
+     "fpr95": 0.512,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.951539,
+     "fpr95": 0.393,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.807457,
+     "fpr95": 0.686,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.93236,
+     "fpr95": 0.412,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.952792,
+     "fpr95": 0.385,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.919079,
+     "fpr95": 0.468,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.917574,
+     "fpr95": 0.523,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.938944,
+     "fpr95": 0.429,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.492036,
+     "fpr95": 0.948,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.313238,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.7773285,
+     "fpr95": 0.607,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "EigenScore": {
+    "cifar10_test": {
+     "auroc": 0.884301,
+     "fpr95": 0.619,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.846053,
+     "fpr95": 0.666,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.850547,
+     "fpr95": 0.82,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.9023,
+     "fpr95": 0.414,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.846881,
+     "fpr95": 0.666,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.867307,
+     "fpr95": 0.693,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.824192,
+     "fpr95": 0.703,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.875049,
+     "fpr95": 0.597,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.854112,
+     "fpr95": 0.66,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test__vflip": {
+     "auroc": 0.719107,
+     "fpr95": 0.833,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.970983,
+     "fpr95": 0.157,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.5887215,
+     "fpr95": 0.8155,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "tied",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    3,
+    4
+   ]
+  }
+ },
+ "dpceleba": {
+  "common": {
+   "NLL": {
+    "cifar10_test": {
+     "auroc": 0.821598,
+     "fpr95": 0.427,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.785534,
+     "fpr95": 0.441,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.829863,
+     "fpr95": 0.432,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.756148,
+     "fpr95": 0.42,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.850077,
+     "fpr95": 0.421,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.848727,
+     "fpr95": 0.337,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.759829,
+     "fpr95": 0.472,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.878322,
+     "fpr95": 0.214,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.811801,
+     "fpr95": 0.363,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.800942,
+     "fpr95": 0.707,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-png": {
+    "cifar10_test": {
+     "auroc": 0.791962,
+     "fpr95": 0.712,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.836159,
+     "fpr95": 0.623,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.988175,
+     "fpr95": 0.049,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.817941,
+     "fpr95": 0.416,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.787697,
+     "fpr95": 0.716,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.899499,
+     "fpr95": 0.534,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.888675,
+     "fpr95": 0.442,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.90192,
+     "fpr95": 0.412,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.890118,
+     "fpr95": 0.498,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.72673,
+     "fpr95": 0.915,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-j2k": {
+    "cifar10_test": {
+     "auroc": 0.751432,
+     "fpr95": 0.716,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.792106,
+     "fpr95": 0.648,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.994963,
+     "fpr95": 0.019,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.794557,
+     "fpr95": 0.439,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.71425,
+     "fpr95": 0.736,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.82764,
+     "fpr95": 0.704,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.839078,
+     "fpr95": 0.54,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.799602,
+     "fpr95": 0.629,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.823485,
+     "fpr95": 0.622,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.717434,
+     "fpr95": 0.901,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "TT": {
+    "cifar10_test": {
+     "auroc": 0.83633,
+     "fpr95": 0.404,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.841228,
+     "fpr95": 0.403,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.801724,
+     "fpr95": 0.433,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.860334,
+     "fpr95": 0.343,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.830808,
+     "fpr95": 0.425,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.865005,
+     "fpr95": 0.334,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.812598,
+     "fpr95": 0.439,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.933833,
+     "fpr95": 0.172,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.856338,
+     "fpr95": 0.331,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.691703,
+     "fpr95": 0.742,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "MSMA*": {
+    "cifar10_test": {
+     "auroc": 0.994539,
+     "fpr95": 0.017,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.994559,
+     "fpr95": 0.015,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.999154,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.998933,
+     "fpr95": 0.003,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.997132,
+     "fpr95": 0.002,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.993846,
+     "fpr95": 0.03,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.993251,
+     "fpr95": 0.046,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.995523,
+     "fpr95": 0.025,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.996264,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.995701,
+     "fpr95": 0.002,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9999665,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "DiffPath": {
+    "cifar10_test": {
+     "auroc": 0.997683,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.996422,
+     "fpr95": 0.011,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.999957,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.999235,
+     "fpr95": 0.005,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.99796,
+     "fpr95": 0.005,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.999642,
+     "fpr95": 0.001,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.996624,
+     "fpr95": 0.012,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.999128,
+     "fpr95": 0.001,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.999456,
+     "fpr95": 0.002,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.999142,
+     "fpr95": 0.002,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9999505,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "GEPC": {
+    "cifar10_test": {
+     "auroc": 0.991342,
+     "fpr95": 0.04,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.987449,
+     "fpr95": 0.074,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.999878,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.989666,
+     "fpr95": 0.048,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.986307,
+     "fpr95": 0.061,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.976404,
+     "fpr95": 0.137,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.98177,
+     "fpr95": 0.106,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.990805,
+     "fpr95": 0.045,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.982553,
+     "fpr95": 0.088,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.673117,
+     "fpr95": 0.93,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9999985,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "EigenScore": {
+    "cifar10_test": {
+     "auroc": 0.882156,
+     "fpr95": 0.575,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test": {
+     "auroc": 0.862859,
+     "fpr95": 0.577,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.788176,
+     "fpr95": 0.808,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.765573,
+     "fpr95": 0.615,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.888527,
+     "fpr95": 0.558,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.905319,
+     "fpr95": 0.521,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.874584,
+     "fpr95": 0.586,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.887624,
+     "fpr95": 0.529,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.892844,
+     "fpr95": 0.513,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test__vflip": {
+     "auroc": 0.84492,
+     "fpr95": 0.693,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.9480365,
+     "fpr95": 0.3305,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.0367345,
+     "fpr95": 0.998,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "tied",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    0,
+    5
+   ]
+  }
+ },
+ "edmc100": {
+  "common": {
+   "NLL": {
+    "cifar10_test": {
+     "auroc": 0.498244,
+     "fpr95": 0.959,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.152789,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.598407,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.614896,
+     "fpr95": 0.812,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.490384,
+     "fpr95": 0.98,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.704392,
+     "fpr95": 0.877,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.577198,
+     "fpr95": 0.899,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.75471,
+     "fpr95": 0.684,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.682913,
+     "fpr95": 0.858,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.5146,
+     "fpr95": 0.946,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-png": {
+    "cifar10_test": {
+     "auroc": 0.444111,
+     "fpr95": 0.966,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.773155,
+     "fpr95": 0.829,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.591505,
+     "fpr95": 0.998,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.717963,
+     "fpr95": 0.649,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.42768,
+     "fpr95": 0.988,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.791201,
+     "fpr95": 0.896,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.721025,
+     "fpr95": 0.86,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.789579,
+     "fpr95": 0.771,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.784348,
+     "fpr95": 0.832,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.523628,
+     "fpr95": 0.947,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-j2k": {
+    "cifar10_test": {
+     "auroc": 0.456968,
+     "fpr95": 0.974,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.9399,
+     "fpr95": 0.356,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.619401,
+     "fpr95": 0.998,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.712578,
+     "fpr95": 0.667,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.4194,
+     "fpr95": 0.989,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.72623,
+     "fpr95": 0.95,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.67458,
+     "fpr95": 0.892,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.693531,
+     "fpr95": 0.875,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.727692,
+     "fpr95": 0.885,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.520661,
+     "fpr95": 0.949,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "TT": {
+    "cifar10_test": {
+     "auroc": 0.451931,
+     "fpr95": 0.969,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.699214,
+     "fpr95": 0.965,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.335457,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.612998,
+     "fpr95": 0.859,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.424457,
+     "fpr95": 0.964,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.554669,
+     "fpr95": 0.963,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.537373,
+     "fpr95": 0.929,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.683864,
+     "fpr95": 0.848,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.574378,
+     "fpr95": 0.949,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.502991,
+     "fpr95": 0.952,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "MSMA*": {
+    "cifar10_test": {
+     "auroc": 0.493122,
+     "fpr95": 0.965,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.877372,
+     "fpr95": 0.794,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.417359,
+     "fpr95": 0.984,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.868535,
+     "fpr95": 0.503,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.671477,
+     "fpr95": 0.924,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.415526,
+     "fpr95": 0.978,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.523052,
+     "fpr95": 0.924,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.595096,
+     "fpr95": 0.911,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.453755,
+     "fpr95": 0.954,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.511748,
+     "fpr95": 0.944,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.999993,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "DiffPath": {
+    "cifar10_test": {
+     "auroc": 0.421227,
+     "fpr95": 0.985,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.972887,
+     "fpr95": 0.175,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.423355,
+     "fpr95": 0.992,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.799484,
+     "fpr95": 0.636,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.681076,
+     "fpr95": 0.903,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.490671,
+     "fpr95": 0.958,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.637616,
+     "fpr95": 0.882,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.724742,
+     "fpr95": 0.778,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.533137,
+     "fpr95": 0.933,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.527765,
+     "fpr95": 0.953,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.994959,
+     "fpr95": 0.002,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "GEPC": {
+    "cifar10_test": {
+     "auroc": 0.623728,
+     "fpr95": 0.795,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.702366,
+     "fpr95": 0.859,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.430958,
+     "fpr95": 0.99,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.630639,
+     "fpr95": 0.79,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.593803,
+     "fpr95": 0.85,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.488976,
+     "fpr95": 0.948,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.492148,
+     "fpr95": 0.939,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.538938,
+     "fpr95": 0.887,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.496349,
+     "fpr95": 0.938,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.477483,
+     "fpr95": 0.945,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.3728645,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.9064705,
+     "fpr95": 0.242,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "EigenScore": {
+    "cifar10_test": {
+     "auroc": 0.232666,
+     "fpr95": 0.993,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "svhn_test": {
+     "auroc": 0.341891,
+     "fpr95": 0.995,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "celeba_test": {
+     "auroc": 0.29863,
+     "fpr95": 0.998,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "textures": {
+     "auroc": 0.464262,
+     "fpr95": 0.938,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "tin_val": {
+     "auroc": 0.497626,
+     "fpr95": 0.963,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "lsun_fix": {
+     "auroc": 0.612951,
+     "fpr95": 0.906,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet_fix": {
+     "auroc": 0.536909,
+     "fpr95": 0.946,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "imagenet32_val": {
+     "auroc": 0.517268,
+     "fpr95": 0.948,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "places365_val": {
+     "auroc": 0.537957,
+     "fpr95": 0.938,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "cifar100_test__vflip": {
+     "auroc": 0.522381,
+     "fpr95": 0.959,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "synth_noise": {
+     "auroc": 0.2023935,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "synth_const": {
+     "auroc": 0.107533,
+     "fpr95": 0.9955,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "tied",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    3,
+    4
+   ]
+  }
+ },
+ "in64": {
+  "common": {
+   "NLL": {
+    "in64_ssb_hard": {
+     "auroc": 0.533988,
+     "fpr95": 0.916,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.550356,
+     "fpr95": 0.882,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.853544,
+     "fpr95": 0.578,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.524024,
+     "fpr95": 0.93,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.60902,
+     "fpr95": 0.822,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.521448,
+     "fpr95": 0.938,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.235576,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.505972,
+     "fpr95": 0.946,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "IC-png": {
+    "in64_ssb_hard": {
+     "auroc": 0.505912,
+     "fpr95": 0.964,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.582912,
+     "fpr95": 0.92,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.659124,
+     "fpr95": 0.878,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.4841,
+     "fpr95": 0.846,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.606208,
+     "fpr95": 0.916,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.493344,
+     "fpr95": 0.988,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.155476,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.51208,
+     "fpr95": 0.948,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "IC-j2k": {
+    "in64_ssb_hard": {
+     "auroc": 0.482844,
+     "fpr95": 0.964,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.535688,
+     "fpr95": 0.92,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.633644,
+     "fpr95": 0.924,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.463124,
+     "fpr95": 0.868,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.567012,
+     "fpr95": 0.936,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.323312,
+     "fpr95": 0.994,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.28494,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.511468,
+     "fpr95": 0.944,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "TT": {
+    "in64_ssb_hard": {
+     "auroc": 0.521896,
+     "fpr95": 0.946,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.593076,
+     "fpr95": 0.878,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.7293,
+     "fpr95": 0.888,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.544628,
+     "fpr95": 0.916,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.59022,
+     "fpr95": 0.872,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.489472,
+     "fpr95": 0.964,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.547348,
+     "fpr95": 0.998,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.50096,
+     "fpr95": 0.946,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "MSMA*": {
+    "in64_ssb_hard": {
+     "auroc": 0.568644,
+     "fpr95": 0.944,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.562756,
+     "fpr95": 0.89,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.385116,
+     "fpr95": 0.996,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.815188,
+     "fpr95": 0.612,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.534552,
+     "fpr95": 0.91,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.743352,
+     "fpr95": 0.946,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.760448,
+     "fpr95": 0.952,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.485904,
+     "fpr95": 0.956,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "DiffPath": {
+    "in64_ssb_hard": {
+     "auroc": 0.502368,
+     "fpr95": 0.938,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.584248,
+     "fpr95": 0.896,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.592972,
+     "fpr95": 0.946,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.69512,
+     "fpr95": 0.79,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.571196,
+     "fpr95": 0.882,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.535252,
+     "fpr95": 0.954,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.389504,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.514252,
+     "fpr95": 0.94,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "GEPC": {
+    "in64_ssb_hard": {
+     "auroc": 0.445724,
+     "fpr95": 0.962,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.504212,
+     "fpr95": 0.94,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.442044,
+     "fpr95": 0.984,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.618796,
+     "fpr95": 0.818,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.558212,
+     "fpr95": 0.906,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.480456,
+     "fpr95": 0.976,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.389064,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.470572,
+     "fpr95": 0.958,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   },
+   "EigenScore": {
+    "in64_ssb_hard": {
+     "auroc": 0.495624,
+     "fpr95": 0.954,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_ninco": {
+     "auroc": 0.460976,
+     "fpr95": 0.966,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_inaturalist": {
+     "auroc": 0.427288,
+     "fpr95": 0.99,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_textures": {
+     "auroc": 0.481648,
+     "fpr95": 0.91,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_openimage_o": {
+     "auroc": 0.488872,
+     "fpr95": 0.94,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_places365": {
+     "auroc": 0.60092,
+     "fpr95": 0.93,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_celeba_test": {
+     "auroc": 0.134804,
+     "fpr95": 1.0,
+     "n_id": 500,
+     "n_ood": 500
+    },
+    "in64_imagenet_test__vflip": {
+     "auroc": 0.660676,
+     "fpr95": 0.904,
+     "n_id": 500,
+     "n_ood": 500
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "diag",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    3,
+    4
+   ]
+  }
+ },
+ "fmnist": {
+  "common": {
+   "NLL": {
+    "g32_mnist_test": {
+     "auroc": 0.108999,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.463014,
+     "fpr95": 0.962,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.105153,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.646341,
+     "fpr95": 0.948,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.531176,
+     "fpr95": 0.937,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-png": {
+    "g32_mnist_test": {
+     "auroc": 0.873827,
+     "fpr95": 0.724,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.901155,
+     "fpr95": 0.485,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.778082,
+     "fpr95": 0.917,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.937691,
+     "fpr95": 0.336,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.604767,
+     "fpr95": 0.921,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "IC-j2k": {
+    "g32_mnist_test": {
+     "auroc": 0.211018,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.340135,
+     "fpr95": 1.0,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.521295,
+     "fpr95": 0.997,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.527825,
+     "fpr95": 0.814,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.584791,
+     "fpr95": 0.912,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "TT": {
+    "g32_mnist_test": {
+     "auroc": 0.798249,
+     "fpr95": 0.781,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.447563,
+     "fpr95": 0.98,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.799523,
+     "fpr95": 0.678,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.43953,
+     "fpr95": 0.967,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.512783,
+     "fpr95": 0.951,
+     "n_id": 1000,
+     "n_ood": 1000
+    }
+   },
+   "MSMA*": {
+    "g32_mnist_test": {
+     "auroc": 0.964874,
+     "fpr95": 0.236,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.951259,
+     "fpr95": 0.327,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.965736,
+     "fpr95": 0.215,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.951637,
+     "fpr95": 0.36,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.76888,
+     "fpr95": 0.866,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_synth_noise": {
+     "auroc": 0.986238,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "g32_synth_const": {
+     "auroc": 0.884895,
+     "fpr95": 0.5545,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "DiffPath": {
+    "g32_mnist_test": {
+     "auroc": 0.712475,
+     "fpr95": 0.784,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.753577,
+     "fpr95": 0.836,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.847498,
+     "fpr95": 0.711,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.939905,
+     "fpr95": 0.371,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.646381,
+     "fpr95": 0.92,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "g32_synth_const": {
+     "auroc": 0.999983,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "GEPC": {
+    "g32_mnist_test": {
+     "auroc": 0.918474,
+     "fpr95": 0.599,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.819808,
+     "fpr95": 0.829,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.941526,
+     "fpr95": 0.357,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.681211,
+     "fpr95": 0.996,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.491622,
+     "fpr95": 0.97,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_synth_noise": {
+     "auroc": 1.0,
+     "fpr95": 0.0,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "g32_synth_const": {
+     "auroc": 0.973531,
+     "fpr95": 0.064,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   },
+   "EigenScore": {
+    "g32_mnist_test": {
+     "auroc": 0.939299,
+     "fpr95": 0.333,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_kmnist_test": {
+     "auroc": 0.978661,
+     "fpr95": 0.113,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_omniglot_eval": {
+     "auroc": 0.93948,
+     "fpr95": 0.406,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_notmnist": {
+     "auroc": 0.880911,
+     "fpr95": 0.449,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_fmnist_test__vflip": {
+     "auroc": 0.913944,
+     "fpr95": 0.413,
+     "n_id": 1000,
+     "n_ood": 1000
+    },
+    "g32_synth_noise": {
+     "auroc": 0.890323,
+     "fpr95": 0.9175,
+     "n_id": 1000,
+     "n_ood": 2000
+    },
+    "g32_synth_const": {
+     "auroc": 0.8467795,
+     "fpr95": 0.3705,
+     "n_id": 1000,
+     "n_ood": 2000
+    }
+   }
+  },
+  "fit": {
+   "DiffPath_grid": {
+    "GMM__covariance_type": "tied",
+    "GMM__max_iter": "200",
+    "GMM__n_components": "50"
+   },
+   "GEPC_kept_levels": [
+    3,
+    4
+   ]
+  }
+ }
+}

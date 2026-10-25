@@ -1,0 +1,24 @@
+# COMPLEXITY: PNG / JPEG 2000 code lengths of every image of the sets of the IC comparison methods (CPU; complexity.py writes data/complexity/<set>.npz).
+python experiments/complexity.py celeba_test
+python experiments/complexity.py cifar100_test
+python experiments/complexity.py cifar10_test
+python experiments/complexity.py g32_fmnist_test
+python experiments/complexity.py g32_kmnist_test
+python experiments/complexity.py g32_mnist_test
+python experiments/complexity.py g32_notmnist
+python experiments/complexity.py g32_omniglot_eval
+python experiments/complexity.py imagenet32_val
+python experiments/complexity.py imagenet_fix
+python experiments/complexity.py in64_celeba_test
+python experiments/complexity.py in64_imagenet_test
+python experiments/complexity.py in64_inaturalist
+python experiments/complexity.py in64_ninco
+python experiments/complexity.py in64_openimage_o
+python experiments/complexity.py in64_places365
+python experiments/complexity.py in64_ssb_hard
+python experiments/complexity.py in64_textures
+python experiments/complexity.py lsun_fix
+python experiments/complexity.py places365_val
+python experiments/complexity.py svhn_test
+python experiments/complexity.py textures
+python experiments/complexity.py tin_val

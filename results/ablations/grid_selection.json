@@ -1,0 +1,1355 @@
+{
+ "c1": {
+  "tfs": [
+   "rot180"
+  ],
+  "ks": [
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "noise": "pair",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 74.05417,
+    "gtsrb_test": 95.6625,
+    "flowers102_test": 96.336625,
+    "eurosat": 96.55735,
+    "mnist_rgb32": 91.98807,
+    "pets_test": 74.55952575633688,
+    "caltech101": 90.99366,
+    "food101_test": 95.4623,
+    "aircraft_test": 64.28369336933693,
+    "imagenette_val": 89.82169426751592,
+    "sst2_test": 99.28484349258649
+   },
+   "l6svhn": {
+    "stl10_test": 86.63380000000001,
+    "gtsrb_test": 84.4707,
+    "flowers102_test": 89.01805,
+    "eurosat": 80.1982,
+    "mnist_rgb32": 83.677625,
+    "pets_test": 86.7441400926683,
+    "caltech101": 86.06152999999999,
+    "food101_test": 87.62769,
+    "aircraft_test": 79.13448844884489,
+    "imagenette_val": 87.25453503184714,
+    "sst2_test": 91.44873695771554
+   },
+   "dpceleba": {
+    "stl10_test": 99.997025,
+    "gtsrb_test": 99.998825,
+    "flowers102_test": 99.999725,
+    "eurosat": 99.99747500000001,
+    "mnist_rgb32": 99.97890000000001,
+    "pets_test": 99.99904606159717,
+    "caltech101": 99.95881,
+    "food101_test": 99.99938,
+    "aircraft_test": 99.99359435943595,
+    "imagenette_val": 99.99764331210191,
+    "sst2_test": 99.7668039538715
+   },
+   "edmc100": {
+    "stl10_test": 41.56295,
+    "gtsrb_test": 77.660275,
+    "flowers102_test": 80.192425,
+    "eurosat": 83.56162499999999,
+    "mnist_rgb32": 77.691975,
+    "pets_test": 36.47059144180976,
+    "caltech101": 67.64462,
+    "food101_test": 75.25153,
+    "aircraft_test": 27.379582958295828,
+    "imagenette_val": 64.00126114649682,
+    "sst2_test": 71.03997803404722
+   },
+   "in64": {
+    "in64_stl10_test": 38.88163333333333,
+    "in64_gtsrb_test": 87.78089999999999,
+    "in64_flowers102_test": 81.86546666666666,
+    "in64_eurosat": 89.83566666666667,
+    "in64_pets_test": 20.895233333333334,
+    "in64_caltech101": 57.00703333333333,
+    "in64_food101_test": 67.3051,
+    "in64_aircraft_test": 22.880533333333332,
+    "in64_sst2_test": 12.938861431447924,
+    "in64_mnist_rgb": 82.57943333333333
+   },
+   "fmnist": {
+    "g32_emnist_letters": 98.51885,
+    "g32_k49": 98.93876,
+    "g32_semeion": 99.04513496547395,
+    "g32_cifar10_gray": 99.339275,
+    "g32_svhn_gray": 99.209425,
+    "g32_gtsrb_gray": 97.047125
+   }
+  }
+ },
+ "c2": {
+  "tfs": [
+   "rot180"
+  ],
+  "ks": [
+   1,
+   3,
+   5,
+   7,
+   9
+  ],
+  "noise": "pair",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 71.88665,
+    "gtsrb_test": 94.60762,
+    "flowers102_test": 95.7372,
+    "eurosat": 93.1138,
+    "mnist_rgb32": 87.98116999999999,
+    "pets_test": 72.38894794221858,
+    "caltech101": 88.48123,
+    "food101_test": 94.47626,
+    "aircraft_test": 54.10355535553555,
+    "imagenette_val": 87.95277707006369,
+    "sst2_test": 92.66334431630972
+   },
+   "l6svhn": {
+    "stl10_test": 88.46714,
+    "gtsrb_test": 87.495625,
+    "flowers102_test": 91.16915,
+    "eurosat": 85.365025,
+    "mnist_rgb32": 86.757375,
+    "pets_test": 88.81796129735623,
+    "caltech101": 87.43368000000001,
+    "food101_test": 89.77434,
+    "aircraft_test": 76.90919591959195,
+    "imagenette_val": 89.05402547770701,
+    "sst2_test": 57.288769906644696
+   },
+   "dpceleba": {
+    "stl10_test": 99.998525,
+    "gtsrb_test": 99.99470000000001,
+    "flowers102_test": 99.999875,
+    "eurosat": 99.9999,
+    "mnist_rgb32": 99.9062,
+    "pets_test": 99.99925047696921,
+    "caltech101": 99.92094,
+    "food101_test": 99.99983,
+    "aircraft_test": 99.99680468046805,
+    "imagenette_val": 99.99854777070064,
+    "sst2_test": 99.90658978583195
+   },
+   "edmc100": {
+    "stl10_test": 37.836,
+    "gtsrb_test": 74.71215,
+    "flowers102_test": 78.59055000000001,
+    "eurosat": 65.754825,
+    "mnist_rgb32": 68.29469999999999,
+    "pets_test": 33.25985282093213,
+    "caltech101": 61.91058,
+    "food101_test": 72.02824,
+    "aircraft_test": 18.36981698169817,
+    "imagenette_val": 60.51768152866243,
+    "sst2_test": 89.25875892366831
+   },
+   "in64": {
+    "in64_stl10_test": 39.06113333333333,
+    "in64_gtsrb_test": 82.18379999999999,
+    "in64_flowers102_test": 81.4306,
+    "in64_eurosat": 76.11456666666668,
+    "in64_pets_test": 21.9556,
+    "in64_caltech101": 55.262766666666664,
+    "in64_food101_test": 64.11536666666666,
+    "in64_aircraft_test": 20.355633333333333,
+    "in64_sst2_test": 22.67289035328574,
+    "in64_mnist_rgb": 82.06433333333332
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.2274,
+    "g32_k49": 99.36231,
+    "g32_semeion": 99.33556183301945,
+    "g32_cifar10_gray": 99.30305,
+    "g32_svhn_gray": 99.024225,
+    "g32_gtsrb_gray": 98.809775
+   }
+  }
+ },
+ "c3": {
+  "tfs": [
+   "rot90"
+  ],
+  "ks": [
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "noise": "pair",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 75.26075,
+    "gtsrb_test": 97.40605,
+    "flowers102_test": 97.08392500000001,
+    "eurosat": 96.9282,
+    "mnist_rgb32": 86.48973,
+    "pets_test": 76.55869446715727,
+    "caltech101": 89.23205,
+    "food101_test": 96.71429,
+    "aircraft_test": 64.17542754275428,
+    "imagenette_val": 88.70615286624204,
+    "sst2_test": 80.05365183964854
+   },
+   "l6svhn": {
+    "stl10_test": 99.24874,
+    "gtsrb_test": 98.800425,
+    "flowers102_test": 99.35549999999999,
+    "eurosat": 98.876775,
+    "mnist_rgb32": 95.227625,
+    "pets_test": 99.03368765331153,
+    "caltech101": 99.07717000000001,
+    "food101_test": 99.47851,
+    "aircraft_test": 99.90685568556856,
+    "imagenette_val": 99.17020382165606,
+    "sst2_test": 99.99755628775398
+   },
+   "dpceleba": {
+    "stl10_test": 99.9952,
+    "gtsrb_test": 99.995925,
+    "flowers102_test": 99.99787500000001,
+    "eurosat": 99.997525,
+    "mnist_rgb32": 99.99584999999999,
+    "pets_test": 99.99531207413465,
+    "caltech101": 99.9178,
+    "food101_test": 99.99676,
+    "aircraft_test": 99.99000900090009,
+    "imagenette_val": 99.99419108280256,
+    "sst2_test": 99.98333333333333
+   },
+   "edmc100": {
+    "stl10_test": 41.78015,
+    "gtsrb_test": 83.36710000000001,
+    "flowers102_test": 82.514475,
+    "eurosat": 86.23604999999999,
+    "mnist_rgb32": 62.980425,
+    "pets_test": 38.39121013900245,
+    "caltech101": 63.97212,
+    "food101_test": 80.51878,
+    "aircraft_test": 24.902415241524153,
+    "imagenette_val": 60.94824203821656,
+    "sst2_test": 67.57979132344866
+   },
+   "in64": {
+    "in64_stl10_test": 39.63393333333333,
+    "in64_gtsrb_test": 83.75103333333334,
+    "in64_flowers102_test": 83.81926666666666,
+    "in64_eurosat": 90.46466666666667,
+    "in64_pets_test": 24.140833333333333,
+    "in64_caltech101": 55.6308,
+    "in64_food101_test": 72.1568,
+    "in64_aircraft_test": 19.9938,
+    "in64_sst2_test": 7.861724327292697,
+    "in64_mnist_rgb": 80.69326666666666
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.44127499999999,
+    "g32_k49": 99.39687,
+    "g32_semeion": 99.40828625235405,
+    "g32_cifar10_gray": 99.240025,
+    "g32_svhn_gray": 99.653225,
+    "g32_gtsrb_gray": 99.2577
+   }
+  }
+ },
+ "c4": {
+  "tfs": [
+   "rot90"
+  ],
+  "ks": [
+   1,
+   3,
+   5,
+   7,
+   9
+  ],
+  "noise": "pair",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 72.33897,
+    "gtsrb_test": 95.36317,
+    "flowers102_test": 96.07515,
+    "eurosat": 93.379425,
+    "mnist_rgb32": 84.0578,
+    "pets_test": 73.32076860179886,
+    "caltech101": 86.8751,
+    "food101_test": 96.12567,
+    "aircraft_test": 57.055055505550555,
+    "imagenette_val": 86.87775796178344,
+    "sst2_test": 82.61847885777046
+   },
+   "l6svhn": {
+    "stl10_test": 99.57614,
+    "gtsrb_test": 99.2256,
+    "flowers102_test": 99.632575,
+    "eurosat": 99.173875,
+    "mnist_rgb32": 96.70807500000001,
+    "pets_test": 99.42684655219406,
+    "caltech101": 99.47072,
+    "food101_test": 99.68939,
+    "aircraft_test": 99.89797479747975,
+    "imagenette_val": 99.50843312101911,
+    "sst2_test": 100.0
+   },
+   "dpceleba": {
+    "stl10_test": 99.997325,
+    "gtsrb_test": 99.987225,
+    "flowers102_test": 99.999525,
+    "eurosat": 99.999225,
+    "mnist_rgb32": 99.992525,
+    "pets_test": 99.9985009539384,
+    "caltech101": 99.87852000000001,
+    "food101_test": 99.99917,
+    "aircraft_test": 99.99560456045604,
+    "imagenette_val": 99.99647133757962,
+    "sst2_test": 100.0
+   },
+   "edmc100": {
+    "stl10_test": 38.40285,
+    "gtsrb_test": 80.38680000000001,
+    "flowers102_test": 79.31200000000001,
+    "eurosat": 70.39125,
+    "mnist_rgb32": 61.32172500000001,
+    "pets_test": 34.332720087217226,
+    "caltech101": 59.75051,
+    "food101_test": 79.65645,
+    "aircraft_test": 17.784533453345336,
+    "imagenette_val": 57.96750318471338,
+    "sst2_test": 83.09071938495333
+   },
+   "in64": {
+    "in64_stl10_test": 40.0775,
+    "in64_gtsrb_test": 82.4469,
+    "in64_flowers102_test": 83.68753333333333,
+    "in64_eurosat": 69.6868,
+    "in64_pets_test": 25.3564,
+    "in64_caltech101": 54.30056666666667,
+    "in64_food101_test": 68.4453,
+    "in64_aircraft_test": 18.435666666666666,
+    "in64_sst2_test": 10.231557752150833,
+    "in64_mnist_rgb": 80.89356666666667
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.52815000000001,
+    "g32_k49": 99.55257,
+    "g32_semeion": 99.60612052730696,
+    "g32_cifar10_gray": 99.44305,
+    "g32_svhn_gray": 99.698525,
+    "g32_gtsrb_gray": 99.535825
+   }
+  }
+ },
+ "c5": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   0,
+   4,
+   8
+  ],
+  "noise": "pair",
+  "nfe": 18,
+  "per": {
+   "edmc10": {
+    "stl10_test": 73.97874,
+    "gtsrb_test": 95.89684000000001,
+    "flowers102_test": 95.49125000000001,
+    "eurosat": 96.4293,
+    "mnist_rgb32": 87.0947,
+    "pets_test": 74.95013627691469,
+    "caltech101": 88.99544,
+    "food101_test": 95.11214,
+    "aircraft_test": 61.27403240324032,
+    "imagenette_val": 88.07175796178343,
+    "sst2_test": 85.44835255354201
+   },
+   "l6svhn": {
+    "stl10_test": 98.61737000000001,
+    "gtsrb_test": 97.6,
+    "flowers102_test": 98.832525,
+    "eurosat": 93.96797500000001,
+    "mnist_rgb32": 95.742325,
+    "pets_test": 98.3265603706732,
+    "caltech101": 98.52036,
+    "food101_test": 98.8294,
+    "aircraft_test": 99.31884188418842,
+    "imagenette_val": 98.5355668789809,
+    "sst2_test": 99.97907742998352
+   },
+   "dpceleba": {
+    "stl10_test": 99.9987,
+    "gtsrb_test": 99.9984,
+    "flowers102_test": 99.99955,
+    "eurosat": 99.99915,
+    "mnist_rgb32": 99.994625,
+    "pets_test": 99.99889615699101,
+    "caltech101": 99.9552,
+    "food101_test": 99.99913000000001,
+    "aircraft_test": 99.9957395739574,
+    "imagenette_val": 99.99824203821656,
+    "sst2_test": 99.99953322350356
+   },
+   "edmc100": {
+    "stl10_test": 42.96455,
+    "gtsrb_test": 80.59475,
+    "flowers102_test": 79.515125,
+    "eurosat": 85.5463,
+    "mnist_rgb32": 69.22615,
+    "pets_test": 39.404347233578626,
+    "caltech101": 65.92493999999999,
+    "food101_test": 77.33209,
+    "aircraft_test": 25.947599759975997,
+    "imagenette_val": 62.81774522292993,
+    "sst2_test": 66.98887973640856
+   },
+   "in64": {
+    "in64_stl10_test": 40.10143333333333,
+    "in64_gtsrb_test": 82.80106666666667,
+    "in64_flowers102_test": 82.31713333333333,
+    "in64_eurosat": 89.05206666666666,
+    "in64_pets_test": 23.748966666666664,
+    "in64_caltech101": 54.65063333333333,
+    "in64_food101_test": 68.77600000000001,
+    "in64_aircraft_test": 22.28046666666667,
+    "in64_sst2_test": 12.51305143693941,
+    "in64_mnist_rgb": 83.08016666666667
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.14422499999999,
+    "g32_k49": 99.17677,
+    "g32_semeion": 99.34001883239172,
+    "g32_cifar10_gray": 99.3073,
+    "g32_svhn_gray": 99.52487500000001,
+    "g32_gtsrb_gray": 97.84479999999999
+   }
+  }
+ },
+ "c6": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   1,
+   5,
+   9
+  ],
+  "noise": "pair",
+  "nfe": 18,
+  "per": {
+   "edmc10": {
+    "stl10_test": 72.2224,
+    "gtsrb_test": 92.94936,
+    "flowers102_test": 94.606325,
+    "eurosat": 83.86775,
+    "mnist_rgb32": 84.17689,
+    "pets_test": 74.20749523030798,
+    "caltech101": 85.49226,
+    "food101_test": 94.15253,
+    "aircraft_test": 48.82922292229223,
+    "imagenette_val": 85.95824203821655,
+    "sst2_test": 87.9144151565074
+   },
+   "l6svhn": {
+    "stl10_test": 98.59203,
+    "gtsrb_test": 97.783225,
+    "flowers102_test": 98.93672500000001,
+    "eurosat": 95.4682,
+    "mnist_rgb32": 95.019125,
+    "pets_test": 98.32226764786046,
+    "caltech101": 98.33342999999999,
+    "food101_test": 98.82446,
+    "aircraft_test": 97.89359435943594,
+    "imagenette_val": 98.45965605095542,
+    "sst2_test": 99.4511532125206
+   },
+   "dpceleba": {
+    "stl10_test": 99.993225,
+    "gtsrb_test": 99.97777500000001,
+    "flowers102_test": 99.99542500000001,
+    "eurosat": 99.999575,
+    "mnist_rgb32": 99.94442500000001,
+    "pets_test": 99.99465794494414,
+    "caltech101": 99.85903,
+    "food101_test": 99.99573000000001,
+    "aircraft_test": 99.98471347134713,
+    "imagenette_val": 99.9911719745223,
+    "sst2_test": 99.99829763866008
+   },
+   "edmc100": {
+    "stl10_test": 43.392425,
+    "gtsrb_test": 77.86682499999999,
+    "flowers102_test": 79.872225,
+    "eurosat": 70.676025,
+    "mnist_rgb32": 65.387725,
+    "pets_test": 41.67181793404197,
+    "caltech101": 62.37321,
+    "food101_test": 77.94157,
+    "aircraft_test": 17.396984698469847,
+    "imagenette_val": 62.0560382165605,
+    "sst2_test": 95.49190005491488
+   },
+   "in64": {
+    "in64_stl10_test": 40.48793333333333,
+    "in64_gtsrb_test": 78.32453333333333,
+    "in64_flowers102_test": 80.986,
+    "in64_eurosat": 68.0893,
+    "in64_pets_test": 25.202333333333332,
+    "in64_caltech101": 52.711133333333336,
+    "in64_food101_test": 63.88166666666667,
+    "in64_aircraft_test": 19.9273,
+    "in64_sst2_test": 40.580157422661536,
+    "in64_mnist_rgb": 77.90846666666667
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.31179999999999,
+    "g32_k49": 99.37405,
+    "g32_semeion": 99.49008160703076,
+    "g32_cifar10_gray": 99.2556,
+    "g32_svhn_gray": 99.402175,
+    "g32_gtsrb_gray": 99.20207500000001
+   }
+  }
+ },
+ "c7": {
+  "tfs": [
+   "rot180"
+  ],
+  "ks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": "single",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 72.80885,
+    "gtsrb_test": 95.9781,
+    "flowers102_test": 96.28115000000001,
+    "eurosat": 91.78659999999999,
+    "mnist_rgb32": 90.622,
+    "pets_test": 73.53535,
+    "caltech101": 89.5416,
+    "food101_test": 95.58995,
+    "aircraft_test": 55.4218,
+    "imagenette_val": 88.7004,
+    "sst2_test": 98.38281164195497
+   },
+   "l6svhn": {
+    "stl10_test": 85.94165000000001,
+    "gtsrb_test": 83.82395,
+    "flowers102_test": 88.46385,
+    "eurosat": 80.0223,
+    "mnist_rgb32": 79.76285,
+    "pets_test": 86.43085,
+    "caltech101": 84.73595,
+    "food101_test": 86.9516,
+    "aircraft_test": 76.2594,
+    "imagenette_val": 86.33404999999999,
+    "sst2_test": 68.53855024711697
+   },
+   "dpceleba": {
+    "stl10_test": 99.9965,
+    "gtsrb_test": 99.9999,
+    "flowers102_test": 99.99995,
+    "eurosat": 99.99974999999999,
+    "mnist_rgb32": 99.9092,
+    "pets_test": 99.99924999999999,
+    "caltech101": 99.96225,
+    "food101_test": 99.99980000000001,
+    "aircraft_test": 99.9945,
+    "imagenette_val": 99.9987,
+    "sst2_test": 99.39242174629325
+   },
+   "edmc100": {
+    "stl10_test": 40.0723,
+    "gtsrb_test": 80.7295,
+    "flowers102_test": 79.88725,
+    "eurosat": 69.57974999999999,
+    "mnist_rgb32": 74.62795,
+    "pets_test": 35.7834,
+    "caltech101": 64.529,
+    "food101_test": 75.8125,
+    "aircraft_test": 19.90525,
+    "imagenette_val": 62.17645,
+    "sst2_test": 89.64140582097748
+   },
+   "in64": {
+    "in64_stl10_test": 39.082699999999996,
+    "in64_gtsrb_test": 86.39179999999999,
+    "in64_flowers102_test": 81.9076,
+    "in64_eurosat": 89.1135,
+    "in64_pets_test": 21.4425,
+    "in64_caltech101": 56.6248,
+    "in64_food101_test": 66.1082,
+    "in64_aircraft_test": 22.7591,
+    "in64_sst2_test": 16.789299999999997,
+    "in64_mnist_rgb": 78.41590000000001
+   },
+   "fmnist": {
+    "g32_emnist_letters": 98.88475,
+    "g32_k49": 99.2757,
+    "g32_semeion": 99.22391713747646,
+    "g32_cifar10_gray": 99.4274,
+    "g32_svhn_gray": 99.43465,
+    "g32_gtsrb_gray": 99.07235
+   }
+  }
+ },
+ "c8": {
+  "tfs": [
+   "rot90"
+  ],
+  "ks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": "single",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 73.52255,
+    "gtsrb_test": 96.6002,
+    "flowers102_test": 96.47545,
+    "eurosat": 95.9564,
+    "mnist_rgb32": 85.33619999999999,
+    "pets_test": 74.96605,
+    "caltech101": 87.94665,
+    "food101_test": 96.70729999999999,
+    "aircraft_test": 57.93585,
+    "imagenette_val": 87.7575,
+    "sst2_test": 75.06002196595277
+   },
+   "l6svhn": {
+    "stl10_test": 99.26375,
+    "gtsrb_test": 99.0492,
+    "flowers102_test": 99.405,
+    "eurosat": 96.86445,
+    "mnist_rgb32": 96.0919,
+    "pets_test": 99.08745,
+    "caltech101": 99.1135,
+    "food101_test": 99.4016,
+    "aircraft_test": 99.837,
+    "imagenette_val": 99.17975,
+    "sst2_test": 99.97457440966502
+   },
+   "dpceleba": {
+    "stl10_test": 99.99645000000001,
+    "gtsrb_test": 99.9917,
+    "flowers102_test": 99.9992,
+    "eurosat": 99.9967,
+    "mnist_rgb32": 99.99485,
+    "pets_test": 99.99675,
+    "caltech101": 99.91325,
+    "food101_test": 99.99805,
+    "aircraft_test": 99.9875,
+    "imagenette_val": 99.9954,
+    "sst2_test": 99.99736408566721
+   },
+   "edmc100": {
+    "stl10_test": 40.34135,
+    "gtsrb_test": 82.24235,
+    "flowers102_test": 79.62925,
+    "eurosat": 74.6379,
+    "mnist_rgb32": 62.94615,
+    "pets_test": 36.5141,
+    "caltech101": 61.5681,
+    "food101_test": 81.2156,
+    "aircraft_test": 19.80405,
+    "imagenette_val": 58.999449999999996,
+    "sst2_test": 80.18605161998902
+   },
+   "in64": {
+    "in64_stl10_test": 40.1417,
+    "in64_gtsrb_test": 81.6144,
+    "in64_flowers102_test": 84.2128,
+    "in64_eurosat": 75.8117,
+    "in64_pets_test": 24.976200000000002,
+    "in64_caltech101": 55.878099999999996,
+    "in64_food101_test": 70.9769,
+    "in64_aircraft_test": 20.6085,
+    "in64_sst2_test": 7.684699999999999,
+    "in64_mnist_rgb": 80.0026
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.28694999999999,
+    "g32_k49": 99.3515,
+    "g32_semeion": 99.4699937225361,
+    "g32_cifar10_gray": 99.36045,
+    "g32_svhn_gray": 99.70515,
+    "g32_gtsrb_gray": 99.5363
+   }
+  }
+ },
+ "c9": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "noise": "single",
+  "nfe": 15,
+  "per": {
+   "edmc10": {
+    "stl10_test": 73.2949,
+    "gtsrb_test": 96.72319999999999,
+    "flowers102_test": 96.13024999999999,
+    "eurosat": 95.70075,
+    "mnist_rgb32": 90.0613,
+    "pets_test": 74.5827,
+    "caltech101": 89.2332,
+    "food101_test": 95.93724999999999,
+    "aircraft_test": 57.932950000000005,
+    "imagenette_val": 88.16075,
+    "sst2_test": 95.39187259747392
+   },
+   "l6svhn": {
+    "stl10_test": 98.07185000000001,
+    "gtsrb_test": 97.2623,
+    "flowers102_test": 98.3124,
+    "eurosat": 96.2588,
+    "mnist_rgb32": 91.85545,
+    "pets_test": 97.71835,
+    "caltech101": 97.72775,
+    "food101_test": 98.36005,
+    "aircraft_test": 98.8001,
+    "imagenette_val": 97.78925000000001,
+    "sst2_test": 99.29956068094454
+   },
+   "dpceleba": {
+    "stl10_test": 99.99884999999999,
+    "gtsrb_test": 99.99985,
+    "flowers102_test": 100.0,
+    "eurosat": 99.99955,
+    "mnist_rgb32": 99.9985,
+    "pets_test": 99.99915,
+    "caltech101": 99.94935000000001,
+    "food101_test": 100.0,
+    "aircraft_test": 99.99430000000001,
+    "imagenette_val": 99.99905,
+    "sst2_test": 99.87589236683141
+   },
+   "edmc100": {
+    "stl10_test": 41.87365,
+    "gtsrb_test": 83.4553,
+    "flowers102_test": 81.0814,
+    "eurosat": 74.69585,
+    "mnist_rgb32": 69.18615,
+    "pets_test": 38.16715,
+    "caltech101": 65.1216,
+    "food101_test": 80.39500000000001,
+    "aircraft_test": 23.2828,
+    "imagenette_val": 62.23265,
+    "sst2_test": 70.70790774299836
+   },
+   "in64": {
+    "in64_stl10_test": 40.138200000000005,
+    "in64_gtsrb_test": 83.1924,
+    "in64_flowers102_test": 81.7782,
+    "in64_eurosat": 90.5345,
+    "in64_pets_test": 23.4474,
+    "in64_caltech101": 56.9691,
+    "in64_food101_test": 69.6862,
+    "in64_aircraft_test": 23.7978,
+    "in64_sst2_test": 13.112499999999999,
+    "in64_mnist_rgb": 79.3136
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.1152,
+    "g32_k49": 99.17190000000001,
+    "g32_semeion": 99.2675455116133,
+    "g32_cifar10_gray": 99.37145,
+    "g32_svhn_gray": 99.63419999999999,
+    "g32_gtsrb_gray": 99.39325
+   }
+  }
+ },
+ "c10": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   1,
+   3,
+   5,
+   7,
+   9
+  ],
+  "noise": "single",
+  "nfe": 15,
+  "per": {
+   "edmc10": {
+    "stl10_test": 72.25515,
+    "gtsrb_test": 94.8797,
+    "flowers102_test": 95.3627,
+    "eurosat": 91.00865,
+    "mnist_rgb32": 85.695,
+    "pets_test": 72.93945,
+    "caltech101": 87.2506,
+    "food101_test": 95.1382,
+    "aircraft_test": 55.788349999999994,
+    "imagenette_val": 86.9914,
+    "sst2_test": 73.90274574409665
+   },
+   "l6svhn": {
+    "stl10_test": 98.4977,
+    "gtsrb_test": 98.08315,
+    "flowers102_test": 98.89750000000001,
+    "eurosat": 92.76615,
+    "mnist_rgb32": 95.0324,
+    "pets_test": 98.2338,
+    "caltech101": 98.253,
+    "food101_test": 98.63119999999999,
+    "aircraft_test": 98.4853,
+    "imagenette_val": 98.38785,
+    "sst2_test": 96.1951674903899
+   },
+   "dpceleba": {
+    "stl10_test": 99.9871,
+    "gtsrb_test": 99.98085,
+    "flowers102_test": 99.9919,
+    "eurosat": 99.99715,
+    "mnist_rgb32": 99.95445,
+    "pets_test": 99.98665,
+    "caltech101": 99.90695000000001,
+    "food101_test": 99.992,
+    "aircraft_test": 99.97135,
+    "imagenette_val": 99.98599999999999,
+    "sst2_test": 99.92619439868204
+   },
+   "edmc100": {
+    "stl10_test": 39.5184,
+    "gtsrb_test": 79.33765000000001,
+    "flowers102_test": 77.16495,
+    "eurosat": 69.1318,
+    "mnist_rgb32": 66.48335,
+    "pets_test": 35.51795,
+    "caltech101": 60.53615,
+    "food101_test": 75.84060000000001,
+    "aircraft_test": 19.77865,
+    "imagenette_val": 59.1699,
+    "sst2_test": 88.71092806150467
+   },
+   "in64": {
+    "in64_stl10_test": 39.7492,
+    "in64_gtsrb_test": 82.2101,
+    "in64_flowers102_test": 82.6426,
+    "in64_eurosat": 75.3701,
+    "in64_pets_test": 24.1585,
+    "in64_caltech101": 55.7145,
+    "in64_food101_test": 67.1285,
+    "in64_aircraft_test": 21.8688,
+    "in64_sst2_test": 12.7553,
+    "in64_mnist_rgb": 78.72449999999999
+   },
+   "fmnist": {
+    "g32_emnist_letters": 98.90995000000001,
+    "g32_k49": 99.22815,
+    "g32_semeion": 99.28819836785938,
+    "g32_cifar10_gray": 99.18245,
+    "g32_svhn_gray": 99.5651,
+    "g32_gtsrb_gray": 99.2009
+   }
+  }
+ },
+ "c11": {
+  "tfs": [
+   "rot90",
+   "rot180",
+   "rot270"
+  ],
+  "ks": [
+   0,
+   2,
+   4,
+   6,
+   8
+  ],
+  "noise": "single",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 73.3729,
+    "gtsrb_test": 96.7316,
+    "flowers102_test": 96.1987,
+    "eurosat": 94.05075000000001,
+    "mnist_rgb32": 89.95425,
+    "pets_test": 74.9475,
+    "caltech101": 89.0528,
+    "food101_test": 96.01075,
+    "aircraft_test": 58.47415,
+    "imagenette_val": 88.06315000000001,
+    "sst2_test": 92.3109829763866
+   },
+   "l6svhn": {
+    "stl10_test": 98.5627,
+    "gtsrb_test": 98.16114999999999,
+    "flowers102_test": 98.6694,
+    "eurosat": 97.3406,
+    "mnist_rgb32": 93.77645,
+    "pets_test": 98.31235000000001,
+    "caltech101": 98.3562,
+    "food101_test": 98.81025,
+    "aircraft_test": 99.3248,
+    "imagenette_val": 98.35165,
+    "sst2_test": 99.84612850082372
+   },
+   "dpceleba": {
+    "stl10_test": 99.99895,
+    "gtsrb_test": 99.9997,
+    "flowers102_test": 100.0,
+    "eurosat": 99.9997,
+    "mnist_rgb32": 99.9991,
+    "pets_test": 99.9997,
+    "caltech101": 99.94915,
+    "food101_test": 99.99980000000001,
+    "aircraft_test": 99.9973,
+    "imagenette_val": 99.9993,
+    "sst2_test": 99.93970345963757
+   },
+   "edmc100": {
+    "stl10_test": 40.9952,
+    "gtsrb_test": 82.9443,
+    "flowers102_test": 80.9082,
+    "eurosat": 73.42585,
+    "mnist_rgb32": 67.26235,
+    "pets_test": 37.09425,
+    "caltech101": 64.0296,
+    "food101_test": 80.6221,
+    "aircraft_test": 22.3891,
+    "imagenette_val": 60.91415,
+    "sst2_test": 71.16353651839648
+   },
+   "in64": {
+    "in64_stl10_test": 40.104299999999995,
+    "in64_gtsrb_test": 83.33420000000001,
+    "in64_flowers102_test": 82.3978,
+    "in64_eurosat": 87.68249999999999,
+    "in64_pets_test": 23.51,
+    "in64_caltech101": 57.044700000000006,
+    "in64_food101_test": 70.2058,
+    "in64_aircraft_test": 22.9615,
+    "in64_sst2_test": 11.196100000000001,
+    "in64_mnist_rgb": 79.2747
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.29755,
+    "g32_k49": 99.356,
+    "g32_semeion": 99.32718141870684,
+    "g32_cifar10_gray": 99.31305,
+    "g32_svhn_gray": 99.6332,
+    "g32_gtsrb_gray": 99.09105
+   }
+  }
+ },
+ "c12": {
+  "tfs": [
+   "rot90",
+   "rot180",
+   "rot270"
+  ],
+  "ks": [
+   1,
+   3,
+   5,
+   7,
+   9
+  ],
+  "noise": "single",
+  "nfe": 20,
+  "per": {
+   "edmc10": {
+    "stl10_test": 72.2514,
+    "gtsrb_test": 94.5991,
+    "flowers102_test": 95.70769999999999,
+    "eurosat": 91.72475,
+    "mnist_rgb32": 84.28744999999999,
+    "pets_test": 72.74810000000001,
+    "caltech101": 87.0118,
+    "food101_test": 95.61874999999999,
+    "aircraft_test": 56.572900000000004,
+    "imagenette_val": 86.78485,
+    "sst2_test": 71.05002745744096
+   },
+   "l6svhn": {
+    "stl10_test": 99.1652,
+    "gtsrb_test": 99.00815,
+    "flowers102_test": 99.45435,
+    "eurosat": 95.2389,
+    "mnist_rgb32": 95.31575,
+    "pets_test": 98.9844,
+    "caltech101": 99.0043,
+    "food101_test": 99.31885,
+    "aircraft_test": 99.3969,
+    "imagenette_val": 99.07454999999999,
+    "sst2_test": 99.54222954420648
+   },
+   "dpceleba": {
+    "stl10_test": 99.98725,
+    "gtsrb_test": 99.98115,
+    "flowers102_test": 99.99005,
+    "eurosat": 99.99705,
+    "mnist_rgb32": 99.96205,
+    "pets_test": 99.98384999999999,
+    "caltech101": 99.8937,
+    "food101_test": 99.9905,
+    "aircraft_test": 99.97135,
+    "imagenette_val": 99.9838,
+    "sst2_test": 99.93909939593631
+   },
+   "edmc100": {
+    "stl10_test": 39.29565,
+    "gtsrb_test": 78.28399999999999,
+    "flowers102_test": 77.82,
+    "eurosat": 75.3223,
+    "mnist_rgb32": 63.53295,
+    "pets_test": 34.9985,
+    "caltech101": 59.857150000000004,
+    "food101_test": 77.45715,
+    "aircraft_test": 20.1843,
+    "imagenette_val": 58.323899999999995,
+    "sst2_test": 85.94975288303131
+   },
+   "in64": {
+    "in64_stl10_test": 39.805,
+    "in64_gtsrb_test": 83.1086,
+    "in64_flowers102_test": 83.10640000000001,
+    "in64_eurosat": 72.86789999999999,
+    "in64_pets_test": 24.238,
+    "in64_caltech101": 55.5756,
+    "in64_food101_test": 67.7107,
+    "in64_aircraft_test": 21.0718,
+    "in64_sst2_test": 8.8044,
+    "in64_mnist_rgb": 78.2785
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.08505,
+    "g32_k49": 99.3071,
+    "g32_semeion": 99.42454488386691,
+    "g32_cifar10_gray": 99.37505,
+    "g32_svhn_gray": 99.6749,
+    "g32_gtsrb_gray": 99.15695
+   }
+  }
+ },
+ "R2x10pair": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": "pair",
+  "nfe": 60,
+  "per": {
+   "edmc10": {
+    "stl10_test": 74.5756,
+    "gtsrb_test": 97.98789,
+    "flowers102_test": 97.94992500000001,
+    "eurosat": 97.3426,
+    "mnist_rgb32": 90.70714,
+    "pets_test": 75.52281275551923,
+    "caltech101": 91.09245,
+    "food101_test": 97.52747000000001,
+    "aircraft_test": 59.848679867986796,
+    "imagenette_val": 90.45261146496816,
+    "sst2_test": 93.149176276771
+   },
+   "l6svhn": {
+    "stl10_test": 99.33621000000001,
+    "gtsrb_test": 98.922775,
+    "flowers102_test": 99.45355,
+    "eurosat": 98.8824,
+    "mnist_rgb32": 96.89927499999999,
+    "pets_test": 99.16462251294631,
+    "caltech101": 99.23246,
+    "food101_test": 99.44853,
+    "aircraft_test": 99.58313831383138,
+    "imagenette_val": 99.26877707006369,
+    "sst2_test": 99.99634816035146
+   },
+   "dpceleba": {
+    "stl10_test": 99.999925,
+    "gtsrb_test": 99.99974999999999,
+    "flowers102_test": 100.0,
+    "eurosat": 99.99997499999999,
+    "mnist_rgb32": 99.99945,
+    "pets_test": 99.99994548923412,
+    "caltech101": 99.94047,
+    "food101_test": 99.99997,
+    "aircraft_test": 99.9997899789979,
+    "imagenette_val": 99.99985987261147,
+    "sst2_test": 99.9996705107084
+   },
+   "edmc100": {
+    "stl10_test": 39.05885,
+    "gtsrb_test": 85.857225,
+    "flowers102_test": 86.076925,
+    "eurosat": 84.182325,
+    "mnist_rgb32": 69.69657500000001,
+    "pets_test": 33.53071681657127,
+    "caltech101": 65.75824999999999,
+    "food101_test": 82.78403,
+    "aircraft_test": 17.462751275127513,
+    "imagenette_val": 63.1836178343949,
+    "sst2_test": 81.91013179571664
+   },
+   "in64": {
+    "in64_stl10_test": 38.9086,
+    "in64_gtsrb_test": 87.60826666666667,
+    "in64_flowers102_test": 85.17736666666667,
+    "in64_eurosat": 81.20713333333333,
+    "in64_pets_test": 22.0725,
+    "in64_caltech101": 56.14203333333333,
+    "in64_food101_test": 69.00103333333333,
+    "in64_aircraft_test": 18.839333333333332,
+    "in64_sst2_test": 10.49189090243456,
+    "in64_mnist_rgb": 85.46996666666666
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.68475,
+    "g32_k49": 99.70468,
+    "g32_semeion": 99.6775266792216,
+    "g32_cifar10_gray": 99.6337,
+    "g32_svhn_gray": 99.773,
+    "g32_gtsrb_gray": 99.50335
+   }
+  }
+ },
+ "R3x10pair": {
+  "tfs": [
+   "rot90",
+   "rot180",
+   "rot270"
+  ],
+  "ks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": "pair",
+  "nfe": 80,
+  "per": {
+   "edmc10": {
+    "stl10_test": 74.3665,
+    "gtsrb_test": 97.83543999999999,
+    "flowers102_test": 97.978025,
+    "eurosat": 97.181925,
+    "mnist_rgb32": 89.27846000000001,
+    "pets_test": 75.28003543199782,
+    "caltech101": 90.52676,
+    "food101_test": 97.60087,
+    "aircraft_test": 60.066786678667874,
+    "imagenette_val": 89.99287898089172,
+    "sst2_test": 87.93028555738606
+   },
+   "l6svhn": {
+    "stl10_test": 99.60983,
+    "gtsrb_test": 99.382875,
+    "flowers102_test": 99.67805,
+    "eurosat": 99.34105,
+    "mnist_rgb32": 97.084025,
+    "pets_test": 99.50883074407196,
+    "caltech101": 99.53519,
+    "food101_test": 99.70153,
+    "aircraft_test": 99.85853585358537,
+    "imagenette_val": 99.5527898089172,
+    "sst2_test": 99.99901153212521
+   },
+   "dpceleba": {
+    "stl10_test": 99.9999,
+    "gtsrb_test": 99.99965,
+    "flowers102_test": 100.0,
+    "eurosat": 99.99995,
+    "mnist_rgb32": 99.999475,
+    "pets_test": 99.99991823385118,
+    "caltech101": 99.93292,
+    "food101_test": 99.99996,
+    "aircraft_test": 99.9998499849985,
+    "imagenette_val": 99.99988535031848,
+    "sst2_test": 99.99997254255904
+   },
+   "edmc100": {
+    "stl10_test": 38.521875,
+    "gtsrb_test": 85.41395,
+    "flowers102_test": 86.24374999999999,
+    "eurosat": 85.742975,
+    "mnist_rgb32": 66.0546,
+    "pets_test": 33.00044971381848,
+    "caltech101": 64.41571,
+    "food101_test": 83.57144,
+    "aircraft_test": 17.062646264626462,
+    "imagenette_val": 61.85565605095541,
+    "sst2_test": 79.21103789126853
+   },
+   "in64": {
+    "in64_stl10_test": 38.878233333333334,
+    "in64_gtsrb_test": 88.1564,
+    "in64_flowers102_test": 85.70876666666666,
+    "in64_eurosat": 78.07743333333333,
+    "in64_pets_test": 22.307333333333336,
+    "in64_caltech101": 55.901466666666664,
+    "in64_food101_test": 69.56836666666668,
+    "in64_aircraft_test": 18.240433333333332,
+    "in64_sst2_test": 8.017206663005675,
+    "in64_mnist_rgb": 84.77613333333333
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.72655,
+    "g32_k49": 99.72501,
+    "g32_semeion": 99.71101694915254,
+    "g32_cifar10_gray": 99.64215,
+    "g32_svhn_gray": 99.809625,
+    "g32_gtsrb_gray": 99.4314
+   }
+  }
+ },
+ "R2x10single": {
+  "tfs": [
+   "rot90",
+   "rot180"
+  ],
+  "ks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": "single",
+  "nfe": 30,
+  "per": {
+   "edmc10": {
+    "stl10_test": 73.86745,
+    "gtsrb_test": 97.4599,
+    "flowers102_test": 97.3393,
+    "eurosat": 95.2895,
+    "mnist_rgb32": 89.99045,
+    "pets_test": 75.07555,
+    "caltech101": 90.1625,
+    "food101_test": 97.17569999999999,
+    "aircraft_test": 56.823299999999996,
+    "imagenette_val": 89.45904999999999,
+    "sst2_test": 92.09626578802855
+   },
+   "l6svhn": {
+    "stl10_test": 98.9233,
+    "gtsrb_test": 98.61569999999999,
+    "flowers102_test": 99.12140000000001,
+    "eurosat": 96.13365,
+    "mnist_rgb32": 95.3808,
+    "pets_test": 98.76025,
+    "caltech101": 98.7818,
+    "food101_test": 99.05095,
+    "aircraft_test": 99.24925,
+    "imagenette_val": 98.84190000000001,
+    "sst2_test": 99.73399231191652
+   },
+   "dpceleba": {
+    "stl10_test": 99.99895,
+    "gtsrb_test": 99.9995,
+    "flowers102_test": 100.0,
+    "eurosat": 99.9997,
+    "mnist_rgb32": 99.99705,
+    "pets_test": 99.99980000000001,
+    "caltech101": 99.94845,
+    "food101_test": 100.0,
+    "aircraft_test": 99.9973,
+    "imagenette_val": 99.9996,
+    "sst2_test": 99.96836902800659
+   },
+   "edmc100": {
+    "stl10_test": 39.89325,
+    "gtsrb_test": 85.1892,
+    "flowers102_test": 82.98325,
+    "eurosat": 74.94,
+    "mnist_rgb32": 70.17755,
+    "pets_test": 35.2618,
+    "caltech101": 64.36545,
+    "food101_test": 81.82690000000001,
+    "aircraft_test": 18.0949,
+    "imagenette_val": 61.84305,
+    "sst2_test": 83.98511806699615
+   },
+   "in64": {
+    "in64_stl10_test": 39.4428,
+    "in64_gtsrb_test": 85.4737,
+    "in64_flowers102_test": 84.3416,
+    "in64_eurosat": 83.1229,
+    "in64_pets_test": 22.7514,
+    "in64_caltech101": 56.6905,
+    "in64_food101_test": 69.24510000000001,
+    "in64_aircraft_test": 21.0303,
+    "in64_sst2_test": 10.4407,
+    "in64_mnist_rgb": 81.4417
+   },
+   "fmnist": {
+    "g32_emnist_letters": 99.36705,
+    "g32_k49": 99.49685000000001,
+    "g32_semeion": 99.49786566227245,
+    "g32_cifar10_gray": 99.50535,
+    "g32_svhn_gray": 99.73885,
+    "g32_gtsrb_gray": 99.55125
+   }
+  }
+ }
+}

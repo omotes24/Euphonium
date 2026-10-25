@@ -1,0 +1,13 @@
+{
+ "name": "Euphonium",
+ "candidate": "e10",
+ "atoms": [["rot90", 0], ["rot90", 6], ["rot180", 0]],
+ "atoms_note": "atom = (rotation T, scale index k) of the log-ratio log e_k(Tx)/e_k(x); k indexes the grid sigma_k = 0.01 * 3162.3^(k/15) (k = 0..15), so k = 0 is sigma_1 = 0.01 and k = 6 is sigma_7 = 0.251 in the paper's 1-based notation",
+ "noise": "pair",
+ "noise_note": "one Gaussian noise image per scale, shared by every test image (seed 0), evaluated at +eps and -eps (antithetic pair)",
+ "seed": 0,
+ "nfe": 10,
+ "nfe_note": "2 (antithetic pair) x [2 distinct scales (upright image) + 3 atoms (rotated images)] = 10 forward passes per image, no backward pass",
+ "selected_by": "protocol/PROTOCOL_10NFE.md: every pure-pair set of atoms over R90/R180/R270 x sigma_1..sigma_10 with at most 10 forward passes (1285 candidates), compared on the selection data only (ID development images vs eleven extra OOD sets that are not part of the main evaluation; 6-ID mean of the per-ID mean AUROC). The top three tie within 0.1 points (85.75, 85.70, 85.65) at equal cost, so the larger worst-ID mean decides (54.4 vs 53.6 vs 52.6). Reproduced by analysis/select_rule.py.",
+ "selected_at": "2026-10-25"
+}

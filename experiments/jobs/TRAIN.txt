@@ -1,0 +1,8 @@
+# TRAIN: our diffusion models (experiments/train.py, EMA weights and snapshots in runs/models/<name>/).  The FashionMNIST and
+#   Tiny-ImageNet commands are those of our job lists; the CIFAR-10 and continued Tiny-ImageNet commands are rebuilt from the
+#   arguments stored in their checkpoints (cfg['args']).  tin_m32 continues tin_m: train.py resumes from <out>/latest.pt, so its
+#   run starts from a copy of tin_m's final state (8M images) and writes the snapshots at 16M and 32M.
+python experiments/train.py --gpu {gpu} --data g32_fmnist_train --out models/fmnist_s --arch s --bs 128 --lr 2.5e-4 --warm 0.2 --mimg 10 --calib_n 5000 >> logs/train_fmnist_s.log 2>&1
+python experiments/train.py --gpu {gpu} --data cifar10_train --out models/c10_m --arch m --bs 128 --lr 2.5e-4 --warm 0.2 --mimg 32 --calib_n 5000 >> logs/train_c10_m.log 2>&1
+python experiments/train.py --gpu {gpu} --data tin_train --out models/tin_m --arch m --bs 128 --lr 2.5e-4 --warm 0.2 --mimg 8 --calib_n 5000 >> logs/train_tin_m.log 2>&1
+until [ -f runs/models/tin_m/final.pt ]; do sleep 60; done; mkdir -p runs/models/tin_m32 && cp -n runs/models/tin_m/latest.pt runs/models/tin_m32/latest.pt && python experiments/train.py --gpu {gpu} --data tin_train --out models/tin_m32 --arch m --bs 128 --lr 2.5e-4 --warm 0.2 --mimg 32 --calib_n 5000 >> logs/train_tin_m32.log 2>&1
